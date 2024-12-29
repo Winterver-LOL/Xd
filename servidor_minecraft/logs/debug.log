@@ -720,3 +720,61 @@
 [17:15:17] [Server thread/DEBUG] [FML]: The world 2710063a (world) may have leaked: seen 55 times.
 
 [17:15:52] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:16:07] [Server thread/DEBUG] [FML]: The world 445966be (world) may have leaked: seen 60 times.
+
+[17:16:07] [Server thread/DEBUG] [FML]: The world 2710063a (world) may have leaked: seen 60 times.
+
+[17:16:37] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:16:57] [Server thread/DEBUG] [FML]: The world 445966be (world) may have leaked: seen 65 times.
+
+[17:16:57] [Server thread/DEBUG] [FML]: The world 2710063a (world) may have leaked: seen 65 times.
+
+[17:17:22] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:17:47] [Server thread/DEBUG] [FML]: The world 445966be (world) may have leaked: seen 70 times.
+
+[17:17:47] [Server thread/DEBUG] [FML]: The world 2710063a (world) may have leaked: seen 70 times.
+
+[17:18:07] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:18:37] [Server thread/DEBUG] [FML]: The world 445966be (world) may have leaked: seen 75 times.
+
+[17:18:37] [Server thread/DEBUG] [FML]: The world 2710063a (world) may have leaked: seen 75 times.
+
+[17:18:52] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:19:27] [Server thread/DEBUG] [FML]: The world 445966be (world) may have leaked: seen 80 times.
+
+[17:19:27] [Server thread/DEBUG] [FML]: The world 2710063a (world) may have leaked: seen 80 times.
+
+[17:19:37] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:20:17] [Server thread/DEBUG] [FML]: The world 445966be (world) may have leaked: seen 85 times.
+
+[17:20:17] [Server thread/DEBUG] [FML]: The world 2710063a (world) may have leaked: seen 85 times.
+
+[17:20:21] [Server thread/TRACE] [FML]: Handshake channel activating
+[17:20:21] [Server thread/DEBUG] [FML]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[17:20:21] [Server thread/DEBUG] [FML]:   Next: HELLO
+[17:20:22] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:20:22] [Netty Epoll Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[17:20:22] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
+[17:20:23] [Netty Epoll Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $ModList:6 mods->FMLHandshakeServerState$2:HELLO
+[17:20:23] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 6 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2859,sexmod@1.8.0,geckolib3@3.0.30,mcp@9.42
+[17:20:23] [Netty Epoll Server IO #1/DEBUG] [FML]:   Next: WAITINGCACK
+[17:20:23] [Netty Epoll Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[17:20:23] [Netty Epoll Server IO #1/DEBUG] [FML]:   Next: COMPLETE
+[17:20:26] [Netty Epoll Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[17:20:26] [Netty Epoll Server IO #1/DEBUG] [FML]:   Next: DONE
+[17:20:26] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[17:20:26] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Tigre_Severo[/127.199.54.170:52329] logged in with entity id 2062 at (32.5, 67.0, 242.5)
+[17:20:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Tigre_Severo joined the game
+[17:20:26] [Netty Epoll Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[17:20:26] [Netty Epoll Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[17:21:07] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:21:52] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:21:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Opped Tigre_Severo
+[17:22:37] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:23:22] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:23:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Tigre_Severo: Set own game mode to Creative Mode]
+[17:23:53] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.b9:b:-1]: generated @ 211 44 387
+[17:23:53] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class com.schnurritv.sexmod.Q from class com.schnurritv.sexmod.aX
+[17:24:07] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:24:52] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[17:25:37] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world

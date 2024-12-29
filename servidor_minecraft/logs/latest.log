@@ -202,3 +202,12 @@
 [17:06:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (8.089s)! For help, type "help" or "?"
 [17:06:08] [Server thread/INFO] [FML]: Unloading dimension -1
 [17:06:08] [Server thread/INFO] [FML]: Unloading dimension 1
+[17:20:22] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
+[17:20:23] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 6 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2859,sexmod@1.8.0,geckolib3@3.0.30,mcp@9.42
+[17:20:26] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[17:20:26] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Tigre_Severo[/127.199.54.170:52329] logged in with entity id 2062 at (32.5, 67.0, 242.5)
+[17:20:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Tigre_Severo joined the game
+[17:21:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Opped Tigre_Severo
+[17:23:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Tigre_Severo: Set own game mode to Creative Mode]
+[17:23:53] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.b9:b:-1]: generated @ 211 44 387
+[17:23:53] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class com.schnurritv.sexmod.Q from class com.schnurritv.sexmod.aX
