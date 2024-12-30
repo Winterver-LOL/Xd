@@ -220,3 +220,258 @@ SchnurriTV's Sexmod: Requires version 1.8.0 but client has 1.9.0.
 [23:03:54] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: pepeneque lost connection: Server Mod rejections:
 SchnurriTV's Sexmod: Requires version 1.8.0 but client has 1.9.0.
 [23:03:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: pepeneque left the game
+[23:06:41] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class com.schnurritv.sexmod.Q from class com.schnurritv.sexmod.aX
+[23:07:13] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_432]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_432]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:47) [h.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
+Caused by: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
+	at com.schnurritv.sexmod.aX.a(aX.java) ~[aX.class:1.8.0]
+	at com.schnurritv.sexmod.ax$a.lambda$onMessage$0(ax$a.java) ~[ax$a.class:1.8.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_432]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_432]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) ~[h.class:?]
+	... 5 more
+Caused by: java.lang.ClassNotFoundException: net.minecraft.client.resources.I18n
+	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.12.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_432]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_432]
+	at com.schnurritv.sexmod.aX.a(aX.java) ~[aX.class:1.8.0]
+	at com.schnurritv.sexmod.ax$a.lambda$onMessage$0(ax$a.java) ~[ax$a.class:1.8.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_432]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_432]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) ~[h.class:?]
+	... 5 more
+Caused by: java.lang.NullPointerException
+[23:09:35] [Netty Epoll Server IO #5/INFO] [FML]: Client protocol version 2
+[23:09:35] [Netty Epoll Server IO #5/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2859,sexmod@1.9.0,geckolib3@3.0.30,mcp@9.42
+[23:09:35] [Netty Epoll Server IO #5/INFO] [FML]: Rejecting connection CLIENT: SchnurriTV's Sexmod: Requires version 1.8.0 but client has 1.9.0.
+[23:09:35] [Netty Epoll Server IO #5/ERROR] [FML]: Network Disconnect: Server Mod rejections:
+SchnurriTV's Sexmod: Requires version 1.8.0 but client has 1.9.0.
+[23:09:35] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: pepeneque lost connection: Server Mod rejections:
+SchnurriTV's Sexmod: Requires version 1.8.0 but client has 1.9.0.
+[23:09:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: pepeneque left the game
+[23:10:03] [Netty Epoll Server IO #6/INFO] [FML]: Client protocol version 2
+[23:10:03] [Netty Epoll Server IO #6/INFO] [FML]: Client attempting to join with 5 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2859,mcp@9.42
+[23:10:03] [Netty Epoll Server IO #6/INFO] [FML]: Attempting connection with missing mods [sexmod, geckolib3] at CLIENT
+[23:10:03] [Netty Epoll Server IO #6/INFO] [FML]: Rejecting connection CLIENT: SchnurriTV's Sexmod: Requires version 1.8.0 but mod is not found on client.
+geckolib3: Requires version 3.0.30 but mod is not found on client.
+[23:10:03] [Netty Epoll Server IO #6/ERROR] [FML]: Network Disconnect: Server Mod rejections:
+SchnurriTV's Sexmod: Requires version 1.8.0 but mod is not found on client.
+geckolib3: Requires version 3.0.30 but mod is not found on client.
+[23:10:03] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: pepeneque lost connection: Server Mod rejections:
+SchnurriTV's Sexmod: Requires version 1.8.0 but mod is not found on client.
+geckolib3: Requires version 3.0.30 but mod is not found on client.
+[23:10:03] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: pepeneque left the game
+[23:10:13] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-1.2903690285089229, 4.7625, -1134.043367276579)
+[23:10:36] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ENANIN10 lost connection: Disconnected
+[23:10:36] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ENANIN10 left the game
+[23:10:38] [Netty Epoll Server IO #0/INFO] [FML]: Client protocol version 2
+[23:10:38] [Netty Epoll Server IO #0/INFO] [FML]: Client attempting to join with 6 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2859,sexmod@1.8.0,geckolib3@3.0.30,mcp@9.42
+[23:10:39] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[23:10:39] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ENANIN10[/127.95.95.213:55035] logged in with entity id 1373458 at (-1.2903690285089229, 4.7625, -1134.043367276579)
+[23:10:39] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ENANIN10 joined the game
+[23:11:47] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
+[23:11:47] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2860,sexmod@1.8.0,geckolib3@3.0.30,mcp@9.42
+[23:11:47] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[23:11:47] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: pepeneque[/127.63.100.36:53727] logged in with entity id 1635456 at (20.5, 4.0, -1117.5)
+[23:11:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: pepeneque joined the game
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ENANIN10 fell out of the world
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed ENANIN10]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Bia]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Jenny]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime girl]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: pepeneque fell out of the world
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed pepeneque]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Luna]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.item.arrow]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.item.bone]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.item.arrow]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.item.bone]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Pig]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Pig]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Cow]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Horse]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Pig]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Horse]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Horse]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Horse]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.item.egg]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Pig]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Chicken]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Cow]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Cow]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Chicken]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Cow]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Sheep]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Chicken]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Horse]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Horse]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Cow]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Horse]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Cow]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Horse]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.item.arrow]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Cow]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Sheep]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Chicken]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.item.egg]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Chicken]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Chicken]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Sheep]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.item.egg]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Chicken]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Cow]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Chicken]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.item.egg]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.item.rottenFlesh]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Sheep]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Pig]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Cow]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.item.arrow]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Cow]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Sheep]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Cow]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Horse]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.item.arrow]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Horse]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.item.egg]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Chicken]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.item.rottenFlesh]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.item.rottenFlesh]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Sheep]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Sheep]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.item.arrow]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.item.bone]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.item.rottenFlesh]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Chicken]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.item.egg]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Pig]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Cow]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Cow]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Chicken]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Cow]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Pig]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Cow]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Sheep]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Cow]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Sheep]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Cow]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Horse]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Sheep]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Cow]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Horse]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Chicken]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Chicken]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Sheep]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Sheep]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Chicken]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Horse]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Cow]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Sheep]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Sheep]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.item.egg]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Chicken]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Pig]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Horse]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Horse]
+[23:12:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Horse]
+[23:13:37] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: pepeneque lost connection: Disconnected
+[23:13:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: pepeneque left the game
+[23:13:40] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
+[23:13:40] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2860,sexmod@1.8.0,geckolib3@3.0.30,mcp@9.42
+[23:13:40] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[23:13:40] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: pepeneque[/127.63.100.36:35241] logged in with entity id 2024519 at (19.5, 4.0, -1114.5)
+[23:13:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: pepeneque joined the game
+[23:14:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Set pepeneque's game mode to Creative Mode]
+[23:15:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: pepeneque has made the advancement [Take Aim]
