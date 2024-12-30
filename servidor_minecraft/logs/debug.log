@@ -1,408 +1,508 @@
-[17:05:53] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[17:05:53] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[17:05:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[17:05:53] [main/DEBUG] [FML]: Injecting tracing printstreams for STDOUT/STDERR.
-[17:05:53] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
-[17:05:53] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_432, running on Linux:amd64:6.5.0-1025-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
-[17:05:53] [main/DEBUG] [FML]: Java classpath at launch is:
-[17:05:53] [main/DEBUG] [FML]:     /workspaces/Xd/servidor_minecraft/forge-1.12.2-14.23.5.2860.jar
-[17:05:53] [main/DEBUG] [FML]: Java library path at launch is:
-[17:05:53] [main/DEBUG] [FML]:     /tmp/_MEIg4ZIcE
-[17:05:53] [main/DEBUG] [FML]:     /usr/java/packages/lib/amd64
-[17:05:53] [main/DEBUG] [FML]:     /usr/lib/x86_64-linux-gnu/jni
-[17:05:53] [main/DEBUG] [FML]:     /lib/x86_64-linux-gnu
-[17:05:53] [main/DEBUG] [FML]:     /usr/lib/x86_64-linux-gnu
-[17:05:53] [main/DEBUG] [FML]:     /usr/lib/jni
-[17:05:53] [main/DEBUG] [FML]:     /lib
-[17:05:53] [main/DEBUG] [FML]:     /usr/lib
-[17:05:53] [main/DEBUG] [FML]: Determined Minecraft Libraries Root: /workspaces/Xd/servidor_minecraft/libraries
-[17:05:53] [main/DEBUG] [FML]: Cleaning up mods folder: ./mods
-[17:05:53] [main/DEBUG] [FML]: Examining file: Jenny-Mod-Forge-1.12.2-v1.8.0.jar
-[17:05:53] [main/DEBUG] [FML]: Enabling runtime deobfuscation
-[17:05:53] [main/DEBUG] [FML]: Instantiating coremod class FMLCorePlugin
-[17:05:53] [main/DEBUG] [FML]: Found signing certificates for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin)
-[17:05:53] [main/DEBUG] [FML]: Found certificate e3c3d50c7c986df74c645c0ac54639741c90a557
-[17:05:53] [main/DEBUG] [FML]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
-[17:05:53] [main/DEBUG] [FML]: Enqueued coremod FMLCorePlugin
-[17:05:53] [main/DEBUG] [FML]: Instantiating coremod class FMLForgePlugin
-[17:05:53] [main/DEBUG] [FML]: Found signing certificates for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin)
-[17:05:53] [main/DEBUG] [FML]: Found certificate e3c3d50c7c986df74c645c0ac54639741c90a557
-[17:05:53] [main/DEBUG] [FML]: Enqueued coremod FMLForgePlugin
-[17:05:53] [main/DEBUG] [FML]: All fundamental core mods are successfully located
-[17:05:53] [main/DEBUG] [FML]: Discovering coremods
-[17:05:53] [main/INFO] [FML]: Searching /workspaces/Xd/servidor_minecraft/./mods for mods
-[17:05:53] [main/DEBUG] [FML]:   Adding Jenny-Mod-Forge-1.12.2-v1.8.0.jar to the mod list
-[17:05:53] [main/DEBUG] [FML]: Examining for coremod candidacy Jenny-Mod-Forge-1.12.2-v1.8.0.jar
-[17:05:53] [main/DEBUG] [FML]: Not found coremod data in Jenny-Mod-Forge-1.12.2-v1.8.0.jar
-[17:05:53] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[17:05:53] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[17:05:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[17:05:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[17:05:53] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:05:53] [main/DEBUG] [FML]: Injecting coremod FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\} class transformers
-[17:05:53] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
-[17:05:53] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
-[17:05:53] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
-[17:05:53] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformer
-[17:05:53] [main/DEBUG] [FML]: Injection complete
-[17:05:53] [main/DEBUG] [FML]: Running coremod plugin for FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\}
-[17:05:53] [main/DEBUG] [FML]: Running coremod plugin FMLCorePlugin
-[17:05:54] [main/DEBUG] [FML]: Read 1154 binary patches
-[17:05:54] [main/DEBUG] [FML]: Loading deobfuscation resource /deobfuscation_data-1.12.2.lzma with 36076 records
-[17:05:54] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[17:05:54] [main/DEBUG] [FML]: Coremod plugin class FMLCorePlugin run successfully
-[17:05:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[17:05:54] [main/DEBUG] [FML]: Injecting coremod FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\} class transformers
-[17:05:54] [main/DEBUG] [FML]: Injection complete
-[17:05:54] [main/DEBUG] [FML]: Running coremod plugin for FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\}
-[17:05:54] [main/DEBUG] [FML]: Running coremod plugin FMLForgePlugin
-[17:05:54] [main/DEBUG] [FML]: Coremod plugin class FMLForgePlugin run successfully
-[17:05:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[17:05:54] [main/DEBUG] [FML]: Loaded 215 rules from AccessTransformer config file forge_at.cfg
-[17:05:54] [main/DEBUG] [FML]: Validating minecraft
-[17:05:54] [main/DEBUG] [FML]: Minecraft validated, launching...
-[17:05:54] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[17:05:54] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[17:05:55] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[17:05:57] [main/DEBUG] [FML]: Creating vanilla freeze snapshot
-[17:05:57] [main/DEBUG] [FML]: Vanilla freeze snapshot created
-[17:05:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[17:05:57] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
-[17:05:57] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[17:05:57] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[17:05:57] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
-[17:05:57] [Server thread/DEBUG] [FML]: No config directory found, creating one: /workspaces/Xd/servidor_minecraft/config
-[17:05:57] [Server thread/INFO] [FML]: Config directory created successfully
-[17:05:57] [Server thread/DEBUG] [FML]: File /workspaces/Xd/servidor_minecraft/config/injectedDependencies.json not found. No dependencies injected
-[17:05:57] [Server thread/DEBUG] [FML]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
-[17:05:57] [Server thread/DEBUG] [FML]: Attempting to load mods contained in the minecraft jar file and associated classes
-[17:05:57] [Server thread/DEBUG] [FML]: Minecraft is a file at /workspaces/Xd/servidor_minecraft/forge-1.12.2-14.23.5.2860.jar, loading
-[17:05:57] [Server thread/DEBUG] [FML]: Minecraft jar mods loaded successfully
-[17:05:57] [Server thread/INFO] [FML]: Searching /workspaces/Xd/servidor_minecraft/./mods for mods
-[17:05:57] [Server thread/DEBUG] [FML]:   Adding Jenny-Mod-Forge-1.12.2-v1.8.0.jar to the mod list
-[17:05:57] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file Jenny-Mod-Forge-1.12.2-v1.8.0.jar
-[17:05:57] [Server thread/DEBUG] [FML]: Examining file forge-1.12.2-14.23.5.2860.jar for potential mods
-[17:05:57] [Server thread/DEBUG] [FML]: The mod container forge-1.12.2-14.23.5.2860.jar appears to be missing an mcmod.info file
-[17:05:58] [Server thread/DEBUG] [FML]: Examining file Jenny-Mod-Forge-1.12.2-v1.8.0.jar for potential mods
-[17:05:58] [Server thread/TRACE] [FML]: Located mcmod.info file in file Jenny-Mod-Forge-1.12.2-v1.8.0.jar
-[17:05:58] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.schnurritv.sexmod.Main) - loading
-[17:05:58] [Server thread/TRACE] [FML]: Parsed dependency info for sexmod: Requirements: [] After:[geckolib] Before:[]
-[17:05:58] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (software.bernie.example.GeckoLibMod) - loading
-[17:05:58] [Server thread/TRACE] [FML]: Parsed dependency info for geckolib3: Requirements: [] After:[] Before:[]
-[17:05:58] [Server thread/INFO] [FML]: Mod geckolib3 is missing the required element 'name'. Substituting geckolib3
-[17:05:58] [Server thread/INFO] [FML]: Forge Mod Loader has identified 6 mods to load
-[17:05:58] [Server thread/TRACE] [FML]: Received a system property request ''
-[17:05:58] [Server thread/TRACE] [FML]: System property request managing the state of 0 mods
-[17:05:58] [Server thread/DEBUG] [FML]: After merging, found state information for 0 mods
-[17:05:58] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
-[17:05:58] [Server thread/DEBUG] [FML]: Enabling mod sexmod
-[17:05:58] [Server thread/DEBUG] [FML]: Enabling mod geckolib3
-[17:05:58] [Server thread/WARN] [FML]: Missing English translation for geckolib3: assets/geckolib3/lang/en_us.lang
-[17:05:58] [Server thread/TRACE] [FML]: Verifying mod requirements are satisfied
-[17:05:58] [Server thread/TRACE] [FML]: All mod requirements are satisfied
-[17:05:58] [Server thread/TRACE] [FML]: Sorting mods into an ordered list
-[17:05:58] [Server thread/TRACE] [FML]: Mod sorting completed successfully
-[17:05:58] [Server thread/DEBUG] [FML]: Mod sorting data
-[17:05:58] [Server thread/DEBUG] [FML]: 	sexmod(SchnurriTV's Sexmod:1.8.0): Jenny-Mod-Forge-1.12.2-v1.8.0.jar (after:geckolib)
-[17:05:58] [Server thread/DEBUG] [FML]: 	geckolib3(geckolib3:3.0.30): Jenny-Mod-Forge-1.12.2-v1.8.0.jar ()
-[17:05:58] [Server thread/DEBUG] [FML]: Loading @Config anotation data
-[17:05:58] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod minecraft
-[17:05:58] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod minecraft
-[17:05:58] [Server thread/DEBUG] [FML]: Bar Step: Construction - Minecraft took 0.002s
-[17:05:58] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod mcp
-[17:05:58] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod mcp
-[17:05:58] [Server thread/DEBUG] [FML]: Bar Step: Construction - Minecraft Coder Pack took 0.001s
-[17:05:58] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod FML
-[17:05:58] [Server thread/TRACE] [FML]: Mod FML is using network checker : Invoking method checkModLists
-[17:05:58] [Server thread/TRACE] [FML]: Testing mod FML to verify it accepts its own version in a remote connection
-[17:05:58] [Server thread/TRACE] [FML]: The mod FML accepts its own version (8.0.99.99)
-[17:05:58] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, sexmod, geckolib3] at CLIENT
-[17:05:58] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, sexmod, geckolib3] at SERVER
-[17:05:58] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod FML
-[17:05:58] [Server thread/DEBUG] [FML]: Bar Step: Construction - Forge Mod Loader took 0.196s
-[17:05:58] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod forge
-[17:05:58] [Server thread/DEBUG] [forge]: Loading Vanilla annotations: null
-[17:05:58] [Server thread/DEBUG] [forge]: Preloading CrashReport Classes
-[17:05:58] [Server thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable
-[17:05:58] [Server thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Alignment
-[17:05:58] [Server thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Column
-[17:05:58] [Server thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Row
-[17:05:58] [Server thread/DEBUG] [forge]: 	net/minecraftforge/fml/client/SplashProgress$1
-[17:05:58] [Server thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/FMLCommonHandler$1
-[17:05:58] [Server thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/Loader$1
-[17:05:58] [Server thread/TRACE] [FML]: Mod forge is using network checker : No network checking performed
-[17:05:58] [Server thread/TRACE] [FML]: Testing mod forge to verify it accepts its own version in a remote connection
-[17:05:58] [Server thread/TRACE] [FML]: The mod forge accepts its own version (14.23.5.2860)
-[17:05:58] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into forge for type INSTANCE
-[17:05:58] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod forge
-[17:05:58] [Server thread/DEBUG] [FML]: Bar Step: Construction - Minecraft Forge took 0.022s
-[17:05:58] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod sexmod
-[17:05:58] [Server thread/TRACE] [FML]: Mod sexmod is using network checker : Accepting version 1.8.0
-[17:05:58] [Server thread/TRACE] [FML]: Testing mod sexmod to verify it accepts its own version in a remote connection
-[17:05:58] [Server thread/TRACE] [FML]: The mod sexmod accepts its own version (1.8.0)
-[17:05:58] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into sexmod
-[17:05:58] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for sexmod
-[17:05:58] [Server thread/WARN] [FML]: ****************************************
-[17:05:58] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.by$b for mod sexmod
-[17:05:58] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[17:05:58] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[17:05:58] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[17:05:58] [Server thread/WARN] [FML]: ****************************************
-[17:05:58] [Server thread/WARN] [FML]: ****************************************
-[17:05:58] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.c2$a for mod sexmod
-[17:05:58] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[17:05:58] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[17:05:58] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[17:05:58] [Server thread/WARN] [FML]: ****************************************
-[17:05:58] [Server thread/WARN] [FML]: ****************************************
-[17:05:58] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.o for mod sexmod
-[17:05:58] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[17:05:58] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[17:05:58] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[17:05:58] [Server thread/WARN] [FML]: ****************************************
-[17:05:58] [Server thread/WARN] [FML]: ****************************************
-[17:05:58] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.ba for mod sexmod
-[17:05:58] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[17:05:58] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[17:05:58] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[17:05:58] [Server thread/WARN] [FML]: ****************************************
-[17:05:58] [Server thread/WARN] [FML]: ****************************************
-[17:05:58] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.bj for mod sexmod
-[17:05:58] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[17:05:58] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[17:05:58] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[17:05:58] [Server thread/WARN] [FML]: ****************************************
-[17:05:58] [Server thread/WARN] [FML]: ****************************************
-[17:05:58] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.bc for mod sexmod
-[17:05:58] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[17:05:58] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[17:05:58] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[17:05:58] [Server thread/WARN] [FML]: ****************************************
-[17:05:58] [Server thread/WARN] [FML]: ****************************************
-[17:05:58] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.D for mod sexmod
-[17:05:58] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[17:05:58] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[17:05:58] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[17:05:58] [Server thread/WARN] [FML]: ****************************************
-[17:05:58] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into sexmod for type INSTANCE
-[17:05:58] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod sexmod
-[17:05:58] [Server thread/DEBUG] [FML]: Bar Step: Construction - SchnurriTV's Sexmod took 0.043s
-[17:05:58] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod geckolib3
-[17:05:58] [Server thread/TRACE] [FML]: Mod geckolib3 is using network checker : Accepting version 3.0.30
-[17:05:58] [Server thread/TRACE] [FML]: Testing mod geckolib3 to verify it accepts its own version in a remote connection
-[17:05:58] [Server thread/TRACE] [FML]: The mod geckolib3 accepts its own version (3.0.30)
-[17:05:58] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into geckolib3
-[17:05:58] [Server thread/DEBUG] [FML]: Skipping proxy injection for com.schnurritv.sexmod.Main.proxy since it is not for mod geckolib3
-[17:05:58] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for geckolib3
-[17:05:58] [Server thread/WARN] [FML]: ****************************************
-[17:05:58] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.by$b for mod geckolib3
-[17:05:58] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[17:05:58] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[17:05:58] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[17:05:58] [Server thread/WARN] [FML]: ****************************************
-[17:05:58] [Server thread/WARN] [FML]: ****************************************
-[17:05:58] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.c2$a for mod geckolib3
-[17:05:58] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[17:05:58] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[17:05:58] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[17:05:58] [Server thread/WARN] [FML]: ****************************************
-[17:05:58] [Server thread/WARN] [FML]: ****************************************
-[17:05:58] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.o for mod geckolib3
-[17:05:58] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[17:05:58] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[17:05:58] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[17:05:58] [Server thread/WARN] [FML]: ****************************************
-[17:05:58] [Server thread/WARN] [FML]: ****************************************
-[17:05:58] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.ba for mod geckolib3
-[17:05:58] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[17:05:58] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[17:05:58] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[17:05:58] [Server thread/WARN] [FML]: ****************************************
-[17:05:58] [Server thread/WARN] [FML]: ****************************************
-[17:05:58] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.bj for mod geckolib3
-[17:05:58] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[17:05:58] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[17:05:58] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[17:05:58] [Server thread/WARN] [FML]: ****************************************
-[17:05:58] [Server thread/WARN] [FML]: ****************************************
-[17:05:58] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.bc for mod geckolib3
-[17:05:58] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[17:05:58] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[17:05:58] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[17:05:58] [Server thread/WARN] [FML]: ****************************************
-[17:05:58] [Server thread/WARN] [FML]: ****************************************
-[17:05:58] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.D for mod geckolib3
-[17:05:58] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[17:05:58] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[17:05:58] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[17:05:58] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[17:05:58] [Server thread/WARN] [FML]: ****************************************
-[17:05:58] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into geckolib3 for type INSTANCE
-[17:05:58] [Server thread/DEBUG] [FML]: Skipping @net.minecraftforge.fml.common.Mod$Instance injection for com.schnurritv.sexmod.Main.instance since it is not for mod geckolib3
-[17:05:58] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod geckolib3
-[17:05:58] [Server thread/DEBUG] [FML]: Bar Step: Construction - geckolib3 took 0.018s
-[17:05:58] [Server thread/DEBUG] [FML]: Bar Finished: Construction took 0.283s
-[17:05:58] [Server thread/DEBUG] [FML]: Mod signature data
-[17:05:58] [Server thread/DEBUG] [FML]:  	Valid Signatures:
-[17:05:58] [Server thread/DEBUG] [FML]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) FML	(Forge Mod Loader	8.0.99.99)	forge-1.12.2-14.23.5.2860.jar
-[17:05:58] [Server thread/DEBUG] [FML]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) forge	(Minecraft Forge	14.23.5.2860)	forge-1.12.2-14.23.5.2860.jar
-[17:05:58] [Server thread/DEBUG] [FML]:  	Missing Signatures:
-[17:05:58] [Server thread/DEBUG] [FML]: 		minecraft	(Minecraft	1.12.2)	minecraft.jar
-[17:05:58] [Server thread/DEBUG] [FML]: 		mcp	(Minecraft Coder Pack	9.42)	minecraft.jar
-[17:05:58] [Server thread/DEBUG] [FML]: 		sexmod	(SchnurriTV's Sexmod	1.8.0)	Jenny-Mod-Forge-1.12.2-v1.8.0.jar
-[17:05:58] [Server thread/DEBUG] [FML]: 		geckolib3	(geckolib3	3.0.30)	Jenny-Mod-Forge-1.12.2-v1.8.0.jar
-[17:05:58] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[17:05:58] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
-[17:05:58] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[17:05:58] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[17:05:58] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod minecraft
-[17:05:58] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod minecraft
-[17:05:58] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft took 0.000s
-[17:05:58] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod mcp
-[17:05:58] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod mcp
-[17:05:58] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.000s
-[17:05:58] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod FML
-[17:05:58] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod FML
-[17:05:58] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Forge Mod Loader took 0.000s
-[17:05:58] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod forge
-[17:05:58] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[17:05:58] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod forge
-[17:05:58] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft Forge took 0.046s
-[17:05:58] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod sexmod
-[17:05:58] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[17:05:59] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity jenny as sexmod:jenny
-[17:05:59] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity ellie as sexmod:ellie
-[17:05:59] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity slime as sexmod:slime
-[17:05:59] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity bia as sexmod:bia
-[17:05:59] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity bee as sexmod:bee
-[17:05:59] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity luna as sexmod:luna
-[17:05:59] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity allie as sexmod:allie
-[17:05:59] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity allie as sexmod:kobold
-[17:05:59] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity allie as sexmod:kobold_egg
-[17:05:59] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity goblin as sexmod:goblin
-[17:05:59] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity allie as sexmod:custom_model
-[17:05:59] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity player_jenny as sexmod:player_jenny
-[17:05:59] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity player_ellie as sexmod:player_ellie
-[17:05:59] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity player_slime as sexmod:player_slime
-[17:05:59] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity player_bia as sexmod:player_bia
-[17:05:59] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity player_bee as sexmod:player_bee
-[17:05:59] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity player_allie as sexmod:player_allie
-[17:05:59] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity player_luna as sexmod:player_luna
-[17:05:59] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity player_kobold as sexmod:player_kobold
-[17:05:59] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity friendly_slime as sexmod:friendly_slime
-[17:05:59] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity luna_hook as sexmod:luna_hook
-[17:05:59] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod sexmod
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - SchnurriTV's Sexmod took 0.274s
-[17:05:59] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod geckolib3
-[17:05:59] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod geckolib3
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - geckolib3 took 0.003s
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Finished: PreInitialization took 0.325s
-[17:05:59] [Server thread/INFO] [FML]: Applying holder lookups
-[17:05:59] [Server thread/INFO] [FML]: Holder lookups applied
-[17:05:59] [Server thread/INFO] [FML]: Applying holder lookups
-[17:05:59] [Server thread/INFO] [FML]: Holder lookups applied
-[17:05:59] [Server thread/INFO] [FML]: Applying holder lookups
-[17:05:59] [Server thread/INFO] [FML]: Holder lookups applied
-[17:05:59] [Server thread/INFO] [FML]: Applying holder lookups
-[17:05:59] [Server thread/INFO] [FML]: Holder lookups applied
-[17:05:59] [Server thread/INFO] [FML]: Injecting itemstacks
-[17:05:59] [Server thread/INFO] [FML]: Itemstack injection complete
-[17:05:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[17:05:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[17:05:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
-[17:05:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
-[17:05:59] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
-[17:05:59] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:05:59] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
-[17:05:59] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:05:59] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:05:59] [Server thread/INFO] [FML]: Applying holder lookups
-[17:05:59] [Server thread/INFO] [FML]: Holder lookups applied
-[17:05:59] [Server thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod minecraft
-[17:05:59] [Server thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod minecraft
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Step: Initialization - Minecraft took 0.000s
-[17:05:59] [Server thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod mcp
-[17:05:59] [Server thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod mcp
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Step: Initialization - Minecraft Coder Pack took 0.001s
-[17:05:59] [Server thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod FML
-[17:05:59] [Server thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod FML
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Step: Initialization - Forge Mod Loader took 0.000s
-[17:05:59] [Server thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod forge
-[17:05:59] [Server thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod forge
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Step: Initialization - Minecraft Forge took 0.000s
-[17:05:59] [Server thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod sexmod
-[17:05:59] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class com.schnurritv.sexmod.Q from class com.schnurritv.sexmod.U
-[17:05:59] [Server thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod sexmod
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Step: Initialization - SchnurriTV's Sexmod took 0.178s
-[17:05:59] [Server thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod geckolib3
-[17:05:59] [Server thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod geckolib3
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Step: Initialization - geckolib3 took 0.001s
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Finished: Initialization took 0.180s
-[17:05:59] [Server thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod minecraft
-[17:05:59] [Server thread/TRACE] [FML]: Sending event IMCEvent to mod minecraft
-[17:05:59] [Server thread/TRACE] [FML]: Sent event IMCEvent to mod minecraft
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Minecraft took 0.004s
-[17:05:59] [Server thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod mcp
-[17:05:59] [Server thread/TRACE] [FML]: Sending event IMCEvent to mod mcp
-[17:05:59] [Server thread/TRACE] [FML]: Sent event IMCEvent to mod mcp
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0.000s
-[17:05:59] [Server thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod FML
-[17:05:59] [Server thread/TRACE] [FML]: Sending event IMCEvent to mod FML
-[17:05:59] [Server thread/TRACE] [FML]: Sent event IMCEvent to mod FML
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0.000s
-[17:05:59] [Server thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod forge
-[17:05:59] [Server thread/TRACE] [FML]: Sending event IMCEvent to mod forge
-[17:05:59] [Server thread/TRACE] [FML]: Sent event IMCEvent to mod forge
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Minecraft Forge took 0.000s
-[17:05:59] [Server thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod sexmod
-[17:05:59] [Server thread/TRACE] [FML]: Sending event IMCEvent to mod sexmod
-[17:05:59] [Server thread/TRACE] [FML]: Sent event IMCEvent to mod sexmod
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - SchnurriTV's Sexmod took 0.000s
-[17:05:59] [Server thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod geckolib3
-[17:05:59] [Server thread/TRACE] [FML]: Sending event IMCEvent to mod geckolib3
-[17:05:59] [Server thread/TRACE] [FML]: Sent event IMCEvent to mod geckolib3
-[17:05:59] [Forge Version Check/DEBUG] [forge.VersionCheck]: [forge] Received version check data:
+[16:01:31] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[16:01:31] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[16:01:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[16:01:31] [main/DEBUG] [FML]: Injecting tracing printstreams for STDOUT/STDERR.
+[16:01:31] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[16:01:31] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_432, running on Linux:amd64:6.5.0-1025-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[16:01:31] [main/DEBUG] [FML]: Java classpath at launch is:
+[16:01:31] [main/DEBUG] [FML]:     /workspaces/Xd/servidor_minecraft/forge-1.12.2-14.23.5.2860.jar
+[16:01:31] [main/DEBUG] [FML]: Java library path at launch is:
+[16:01:31] [main/DEBUG] [FML]:     /tmp/_MEIAU7syt
+[16:01:31] [main/DEBUG] [FML]:     /usr/java/packages/lib/amd64
+[16:01:31] [main/DEBUG] [FML]:     /usr/lib/x86_64-linux-gnu/jni
+[16:01:31] [main/DEBUG] [FML]:     /lib/x86_64-linux-gnu
+[16:01:31] [main/DEBUG] [FML]:     /usr/lib/x86_64-linux-gnu
+[16:01:31] [main/DEBUG] [FML]:     /usr/lib/jni
+[16:01:31] [main/DEBUG] [FML]:     /lib
+[16:01:31] [main/DEBUG] [FML]:     /usr/lib
+[16:01:31] [main/DEBUG] [FML]: Determined Minecraft Libraries Root: /workspaces/Xd/servidor_minecraft/libraries
+[16:01:31] [main/DEBUG] [FML]: Cleaning up mods folder: ./mods
+[16:01:31] [main/DEBUG] [FML]: Examining file: Jenny-Mod-Forge-1.12.2-v1.8.0.jar
+[16:01:31] [main/DEBUG] [FML]: Enabling runtime deobfuscation
+[16:01:31] [main/DEBUG] [FML]: Instantiating coremod class FMLCorePlugin
+[16:01:31] [main/DEBUG] [FML]: Found signing certificates for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin)
+[16:01:31] [main/DEBUG] [FML]: Found certificate e3c3d50c7c986df74c645c0ac54639741c90a557
+[16:01:31] [main/DEBUG] [FML]: Added access transformer class net.minecraftforge.fml.common.asm.transformers.AccessTransformer to enqueued access transformers
+[16:01:31] [main/DEBUG] [FML]: Enqueued coremod FMLCorePlugin
+[16:01:31] [main/DEBUG] [FML]: Instantiating coremod class FMLForgePlugin
+[16:01:31] [main/DEBUG] [FML]: Found signing certificates for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin)
+[16:01:31] [main/DEBUG] [FML]: Found certificate e3c3d50c7c986df74c645c0ac54639741c90a557
+[16:01:31] [main/DEBUG] [FML]: Enqueued coremod FMLForgePlugin
+[16:01:31] [main/DEBUG] [FML]: All fundamental core mods are successfully located
+[16:01:31] [main/DEBUG] [FML]: Discovering coremods
+[16:01:31] [main/INFO] [FML]: Searching /workspaces/Xd/servidor_minecraft/./mods for mods
+[16:01:31] [main/DEBUG] [FML]:   Adding Jenny-Mod-Forge-1.12.2-v1.8.0.jar to the mod list
+[16:01:31] [main/DEBUG] [FML]: Examining for coremod candidacy Jenny-Mod-Forge-1.12.2-v1.8.0.jar
+[16:01:31] [main/DEBUG] [FML]: Not found coremod data in Jenny-Mod-Forge-1.12.2-v1.8.0.jar
+[16:01:31] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:01:31] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[16:01:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:01:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[16:01:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:01:31] [main/DEBUG] [FML]: Injecting coremod FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\} class transformers
+[16:01:31] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SideTransformer
+[16:01:31] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriptionTransformer
+[16:01:31] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.EventSubscriberTransformer
+[16:01:31] [main/TRACE] [FML]: Registering transformer net.minecraftforge.fml.common.asm.transformers.SoundEngineFixTransformer
+[16:01:31] [main/DEBUG] [FML]: Injection complete
+[16:01:31] [main/DEBUG] [FML]: Running coremod plugin for FMLCorePlugin \{net.minecraftforge.fml.relauncher.FMLCorePlugin\}
+[16:01:31] [main/DEBUG] [FML]: Running coremod plugin FMLCorePlugin
+[16:01:32] [main/DEBUG] [FML]: Read 1154 binary patches
+[16:01:32] [main/DEBUG] [FML]: Loading deobfuscation resource /deobfuscation_data-1.12.2.lzma with 36076 records
+[16:01:32] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[16:01:32] [main/DEBUG] [FML]: Coremod plugin class FMLCorePlugin run successfully
+[16:01:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[16:01:32] [main/DEBUG] [FML]: Injecting coremod FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\} class transformers
+[16:01:32] [main/DEBUG] [FML]: Injection complete
+[16:01:32] [main/DEBUG] [FML]: Running coremod plugin for FMLForgePlugin \{net.minecraftforge.classloading.FMLForgePlugin\}
+[16:01:32] [main/DEBUG] [FML]: Running coremod plugin FMLForgePlugin
+[16:01:32] [main/DEBUG] [FML]: Coremod plugin class FMLForgePlugin run successfully
+[16:01:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[16:01:32] [main/DEBUG] [FML]: Loaded 215 rules from AccessTransformer config file forge_at.cfg
+[16:01:32] [main/DEBUG] [FML]: Validating minecraft
+[16:01:33] [main/DEBUG] [FML]: Minecraft validated, launching...
+[16:01:33] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[16:01:33] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[16:01:33] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[16:01:35] [main/DEBUG] [FML]: Creating vanilla freeze snapshot
+[16:01:35] [main/DEBUG] [FML]: Vanilla freeze snapshot created
+[16:01:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[16:01:35] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[16:01:35] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[16:01:35] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[16:01:36] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[16:01:36] [Server thread/DEBUG] [FML]: File /workspaces/Xd/servidor_minecraft/config/injectedDependencies.json not found. No dependencies injected
+[16:01:36] [Server thread/DEBUG] [FML]: Building injected Mod Containers [net.minecraftforge.fml.common.FMLContainer, net.minecraftforge.common.ForgeModContainer]
+[16:01:36] [Server thread/DEBUG] [FML]: Attempting to load mods contained in the minecraft jar file and associated classes
+[16:01:36] [Server thread/DEBUG] [FML]: Minecraft is a file at /workspaces/Xd/servidor_minecraft/forge-1.12.2-14.23.5.2860.jar, loading
+[16:01:36] [Server thread/DEBUG] [FML]: Minecraft jar mods loaded successfully
+[16:01:36] [Server thread/INFO] [FML]: Searching /workspaces/Xd/servidor_minecraft/./mods for mods
+[16:01:36] [Server thread/DEBUG] [FML]:   Adding Jenny-Mod-Forge-1.12.2-v1.8.0.jar to the mod list
+[16:01:36] [Server thread/DEBUG] [FML]: Found a candidate zip or jar file Jenny-Mod-Forge-1.12.2-v1.8.0.jar
+[16:01:36] [Server thread/DEBUG] [FML]: Examining file forge-1.12.2-14.23.5.2860.jar for potential mods
+[16:01:36] [Server thread/DEBUG] [FML]: The mod container forge-1.12.2-14.23.5.2860.jar appears to be missing an mcmod.info file
+[16:01:36] [Server thread/DEBUG] [FML]: Examining file Jenny-Mod-Forge-1.12.2-v1.8.0.jar for potential mods
+[16:01:36] [Server thread/TRACE] [FML]: Located mcmod.info file in file Jenny-Mod-Forge-1.12.2-v1.8.0.jar
+[16:01:36] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (com.schnurritv.sexmod.Main) - loading
+[16:01:36] [Server thread/TRACE] [FML]: Parsed dependency info for sexmod: Requirements: [] After:[geckolib] Before:[]
+[16:01:36] [Server thread/DEBUG] [FML]: Identified a mod of type Lnet/minecraftforge/fml/common/Mod; (software.bernie.example.GeckoLibMod) - loading
+[16:01:36] [Server thread/TRACE] [FML]: Parsed dependency info for geckolib3: Requirements: [] After:[] Before:[]
+[16:01:36] [Server thread/INFO] [FML]: Mod geckolib3 is missing the required element 'name'. Substituting geckolib3
+[16:01:36] [Server thread/INFO] [FML]: Forge Mod Loader has identified 6 mods to load
+[16:01:36] [Server thread/TRACE] [FML]: Received a system property request ''
+[16:01:36] [Server thread/TRACE] [FML]: System property request managing the state of 0 mods
+[16:01:36] [Server thread/DEBUG] [FML]: After merging, found state information for 0 mods
+[16:01:36] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[16:01:36] [Server thread/DEBUG] [FML]: Enabling mod sexmod
+[16:01:36] [Server thread/DEBUG] [FML]: Enabling mod geckolib3
+[16:01:36] [Server thread/WARN] [FML]: Missing English translation for geckolib3: assets/geckolib3/lang/en_us.lang
+[16:01:36] [Server thread/TRACE] [FML]: Verifying mod requirements are satisfied
+[16:01:36] [Server thread/TRACE] [FML]: All mod requirements are satisfied
+[16:01:36] [Server thread/TRACE] [FML]: Sorting mods into an ordered list
+[16:01:36] [Server thread/TRACE] [FML]: Mod sorting completed successfully
+[16:01:36] [Server thread/DEBUG] [FML]: Mod sorting data
+[16:01:36] [Server thread/DEBUG] [FML]: 	sexmod(SchnurriTV's Sexmod:1.8.0): Jenny-Mod-Forge-1.12.2-v1.8.0.jar (after:geckolib)
+[16:01:36] [Server thread/DEBUG] [FML]: 	geckolib3(geckolib3:3.0.30): Jenny-Mod-Forge-1.12.2-v1.8.0.jar ()
+[16:01:36] [Server thread/DEBUG] [FML]: Loading @Config anotation data
+[16:01:36] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod minecraft
+[16:01:36] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod minecraft
+[16:01:36] [Server thread/DEBUG] [FML]: Bar Step: Construction - Minecraft took 0.003s
+[16:01:36] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod mcp
+[16:01:36] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod mcp
+[16:01:36] [Server thread/DEBUG] [FML]: Bar Step: Construction - Minecraft Coder Pack took 0.001s
+[16:01:36] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod FML
+[16:01:36] [Server thread/TRACE] [FML]: Mod FML is using network checker : Invoking method checkModLists
+[16:01:36] [Server thread/TRACE] [FML]: Testing mod FML to verify it accepts its own version in a remote connection
+[16:01:36] [Server thread/TRACE] [FML]: The mod FML accepts its own version (8.0.99.99)
+[16:01:36] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, sexmod, geckolib3] at CLIENT
+[16:01:36] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, sexmod, geckolib3] at SERVER
+[16:01:37] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod FML
+[16:01:37] [Server thread/DEBUG] [FML]: Bar Step: Construction - Forge Mod Loader took 0.249s
+[16:01:37] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod forge
+[16:01:37] [Server thread/DEBUG] [forge]: Loading Vanilla annotations: null
+[16:01:37] [Server thread/DEBUG] [forge]: Preloading CrashReport Classes
+[16:01:37] [Server thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable
+[16:01:37] [Server thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Alignment
+[16:01:37] [Server thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Column
+[16:01:37] [Server thread/DEBUG] [forge]: 	net/minecraftforge/common/util/TextTable$Row
+[16:01:37] [Server thread/DEBUG] [forge]: 	net/minecraftforge/fml/client/SplashProgress$1
+[16:01:37] [Server thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/FMLCommonHandler$1
+[16:01:37] [Server thread/DEBUG] [forge]: 	net/minecraftforge/fml/common/Loader$1
+[16:01:37] [Server thread/TRACE] [FML]: Mod forge is using network checker : No network checking performed
+[16:01:37] [Server thread/TRACE] [FML]: Testing mod forge to verify it accepts its own version in a remote connection
+[16:01:37] [Server thread/TRACE] [FML]: The mod forge accepts its own version (14.23.5.2860)
+[16:01:37] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into forge for type INSTANCE
+[16:01:37] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod forge
+[16:01:37] [Server thread/DEBUG] [FML]: Bar Step: Construction - Minecraft Forge took 0.044s
+[16:01:37] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod sexmod
+[16:01:37] [Server thread/TRACE] [FML]: Mod sexmod is using network checker : Accepting version 1.8.0
+[16:01:37] [Server thread/TRACE] [FML]: Testing mod sexmod to verify it accepts its own version in a remote connection
+[16:01:37] [Server thread/TRACE] [FML]: The mod sexmod accepts its own version (1.8.0)
+[16:01:37] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into sexmod
+[16:01:37] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for sexmod
+[16:01:37] [Server thread/WARN] [FML]: ****************************************
+[16:01:37] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.bc for mod sexmod
+[16:01:37] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[16:01:37] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[16:01:37] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[16:01:37] [Server thread/WARN] [FML]: ****************************************
+[16:01:37] [Server thread/WARN] [FML]: ****************************************
+[16:01:37] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.bj for mod sexmod
+[16:01:37] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[16:01:37] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[16:01:37] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[16:01:37] [Server thread/WARN] [FML]: ****************************************
+[16:01:37] [Server thread/WARN] [FML]: ****************************************
+[16:01:37] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.D for mod sexmod
+[16:01:37] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[16:01:37] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[16:01:37] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[16:01:37] [Server thread/WARN] [FML]: ****************************************
+[16:01:37] [Server thread/WARN] [FML]: ****************************************
+[16:01:37] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.by$b for mod sexmod
+[16:01:37] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[16:01:37] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[16:01:37] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[16:01:37] [Server thread/WARN] [FML]: ****************************************
+[16:01:37] [Server thread/WARN] [FML]: ****************************************
+[16:01:37] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.c2$a for mod sexmod
+[16:01:37] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[16:01:37] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[16:01:37] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[16:01:37] [Server thread/WARN] [FML]: ****************************************
+[16:01:37] [Server thread/WARN] [FML]: ****************************************
+[16:01:37] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.ba for mod sexmod
+[16:01:37] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[16:01:37] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[16:01:37] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[16:01:37] [Server thread/WARN] [FML]: ****************************************
+[16:01:37] [Server thread/WARN] [FML]: ****************************************
+[16:01:37] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.o for mod sexmod
+[16:01:37] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[16:01:37] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[16:01:37] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[16:01:37] [Server thread/WARN] [FML]: ****************************************
+[16:01:37] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into sexmod for type INSTANCE
+[16:01:37] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod sexmod
+[16:01:37] [Server thread/DEBUG] [FML]: Bar Step: Construction - SchnurriTV's Sexmod took 0.081s
+[16:01:37] [Server thread/TRACE] [FML]: Sending event FMLConstructionEvent to mod geckolib3
+[16:01:37] [Server thread/TRACE] [FML]: Mod geckolib3 is using network checker : Accepting version 3.0.30
+[16:01:37] [Server thread/TRACE] [FML]: Testing mod geckolib3 to verify it accepts its own version in a remote connection
+[16:01:37] [Server thread/TRACE] [FML]: The mod geckolib3 accepts its own version (3.0.30)
+[16:01:37] [Server thread/DEBUG] [FML]: Attempting to inject @SidedProxy classes into geckolib3
+[16:01:37] [Server thread/DEBUG] [FML]: Skipping proxy injection for com.schnurritv.sexmod.Main.proxy since it is not for mod geckolib3
+[16:01:37] [Server thread/DEBUG] [FML]: Attempting to inject @EventBusSubscriber classes into the eventbus for geckolib3
+[16:01:37] [Server thread/WARN] [FML]: ****************************************
+[16:01:37] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.bc for mod geckolib3
+[16:01:37] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[16:01:37] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[16:01:37] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[16:01:37] [Server thread/WARN] [FML]: ****************************************
+[16:01:37] [Server thread/WARN] [FML]: ****************************************
+[16:01:37] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.bj for mod geckolib3
+[16:01:37] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[16:01:37] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[16:01:37] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[16:01:37] [Server thread/WARN] [FML]: ****************************************
+[16:01:37] [Server thread/WARN] [FML]: ****************************************
+[16:01:37] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.D for mod geckolib3
+[16:01:37] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[16:01:37] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[16:01:37] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[16:01:37] [Server thread/WARN] [FML]: ****************************************
+[16:01:37] [Server thread/WARN] [FML]: ****************************************
+[16:01:37] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.by$b for mod geckolib3
+[16:01:37] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[16:01:37] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[16:01:37] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[16:01:37] [Server thread/WARN] [FML]: ****************************************
+[16:01:37] [Server thread/WARN] [FML]: ****************************************
+[16:01:37] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.c2$a for mod geckolib3
+[16:01:37] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[16:01:37] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[16:01:37] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[16:01:37] [Server thread/WARN] [FML]: ****************************************
+[16:01:37] [Server thread/WARN] [FML]: ****************************************
+[16:01:37] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.ba for mod geckolib3
+[16:01:37] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[16:01:37] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[16:01:37] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[16:01:37] [Server thread/WARN] [FML]: ****************************************
+[16:01:37] [Server thread/WARN] [FML]: ****************************************
+[16:01:37] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.o for mod geckolib3
+[16:01:37] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[16:01:37] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[16:01:37] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[16:01:37] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[16:01:37] [Server thread/WARN] [FML]: ****************************************
+[16:01:37] [Server thread/DEBUG] [FML]: Attempting to inject @Config classes into geckolib3 for type INSTANCE
+[16:01:37] [Server thread/DEBUG] [FML]: Skipping @net.minecraftforge.fml.common.Mod$Instance injection for com.schnurritv.sexmod.Main.instance since it is not for mod geckolib3
+[16:01:37] [Server thread/TRACE] [FML]: Sent event FMLConstructionEvent to mod geckolib3
+[16:01:37] [Server thread/DEBUG] [FML]: Bar Step: Construction - geckolib3 took 0.036s
+[16:01:37] [Server thread/DEBUG] [FML]: Bar Finished: Construction took 0.414s
+[16:01:37] [Server thread/DEBUG] [FML]: Mod signature data
+[16:01:37] [Server thread/DEBUG] [FML]:  	Valid Signatures:
+[16:01:37] [Server thread/DEBUG] [FML]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) FML	(Forge Mod Loader	8.0.99.99)	forge-1.12.2-14.23.5.2860.jar
+[16:01:37] [Server thread/DEBUG] [FML]: 		(e3c3d50c7c986df74c645c0ac54639741c90a557) forge	(Minecraft Forge	14.23.5.2860)	forge-1.12.2-14.23.5.2860.jar
+[16:01:37] [Server thread/DEBUG] [FML]:  	Missing Signatures:
+[16:01:37] [Server thread/DEBUG] [FML]: 		minecraft	(Minecraft	1.12.2)	minecraft.jar
+[16:01:37] [Server thread/DEBUG] [FML]: 		mcp	(Minecraft Coder Pack	9.42)	minecraft.jar
+[16:01:37] [Server thread/DEBUG] [FML]: 		sexmod	(SchnurriTV's Sexmod	1.8.0)	Jenny-Mod-Forge-1.12.2-v1.8.0.jar
+[16:01:37] [Server thread/DEBUG] [FML]: 		geckolib3	(geckolib3	3.0.30)	Jenny-Mod-Forge-1.12.2-v1.8.0.jar
+[16:01:37] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[16:01:37] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[16:01:37] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[16:01:37] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[16:01:37] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod minecraft
+[16:01:37] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod minecraft
+[16:01:37] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft took 0.001s
+[16:01:37] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod mcp
+[16:01:37] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod mcp
+[16:01:37] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft Coder Pack took 0.001s
+[16:01:37] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod FML
+[16:01:37] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod FML
+[16:01:37] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Forge Mod Loader took 0.001s
+[16:01:37] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod forge
+[16:01:37] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[16:01:37] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod forge
+[16:01:37] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - Minecraft Forge took 0.087s
+[16:01:37] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod sexmod
+[16:01:37] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[16:01:37] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity jenny as sexmod:jenny
+[16:01:37] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity ellie as sexmod:ellie
+[16:01:37] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity slime as sexmod:slime
+[16:01:37] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity bia as sexmod:bia
+[16:01:37] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity bee as sexmod:bee
+[16:01:37] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity luna as sexmod:luna
+[16:01:37] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity allie as sexmod:allie
+[16:01:37] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity allie as sexmod:kobold
+[16:01:37] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity allie as sexmod:kobold_egg
+[16:01:37] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity goblin as sexmod:goblin
+[16:01:37] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity allie as sexmod:custom_model
+[16:01:37] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity player_jenny as sexmod:player_jenny
+[16:01:37] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity player_ellie as sexmod:player_ellie
+[16:01:37] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity player_slime as sexmod:player_slime
+[16:01:37] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity player_bia as sexmod:player_bia
+[16:01:37] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity player_bee as sexmod:player_bee
+[16:01:37] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity player_allie as sexmod:player_allie
+[16:01:37] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity player_luna as sexmod:player_luna
+[16:01:37] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity player_kobold as sexmod:player_kobold
+[16:01:37] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity friendly_slime as sexmod:friendly_slime
+[16:01:37] [Server thread/TRACE] [FML]: Automatically registered mod sexmod entity luna_hook as sexmod:luna_hook
+[16:01:37] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod sexmod
+[16:01:37] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - SchnurriTV's Sexmod took 0.335s
+[16:01:37] [Server thread/TRACE] [FML]: Sending event FMLPreInitializationEvent to mod geckolib3
+[16:01:37] [Server thread/TRACE] [FML]: Sent event FMLPreInitializationEvent to mod geckolib3
+[16:01:37] [Server thread/DEBUG] [FML]: Bar Step: PreInitialization - geckolib3 took 0.001s
+[16:01:37] [Server thread/DEBUG] [FML]: Bar Finished: PreInitialization took 0.424s
+[16:01:37] [Server thread/INFO] [FML]: Applying holder lookups
+[16:01:37] [Server thread/INFO] [FML]: Holder lookups applied
+[16:01:37] [Server thread/INFO] [FML]: Applying holder lookups
+[16:01:37] [Server thread/INFO] [FML]: Holder lookups applied
+[16:01:37] [Server thread/INFO] [FML]: Applying holder lookups
+[16:01:37] [Server thread/INFO] [FML]: Holder lookups applied
+[16:01:37] [Server thread/INFO] [FML]: Applying holder lookups
+[16:01:37] [Server thread/INFO] [FML]: Holder lookups applied
+[16:01:37] [Server thread/INFO] [FML]: Injecting itemstacks
+[16:01:37] [Server thread/INFO] [FML]: Itemstack injection complete
+[16:01:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[16:01:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[16:01:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[16:01:37] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[16:01:38] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
+[16:01:38] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[16:01:38] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[16:01:38] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[16:01:38] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[16:01:38] [Server thread/INFO] [FML]: Applying holder lookups
+[16:01:38] [Server thread/INFO] [FML]: Holder lookups applied
+[16:01:38] [Server thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod minecraft
+[16:01:38] [Server thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod minecraft
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Step: Initialization - Minecraft took 0.001s
+[16:01:38] [Server thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod mcp
+[16:01:38] [Server thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod mcp
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Step: Initialization - Minecraft Coder Pack took 0.001s
+[16:01:38] [Server thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod FML
+[16:01:38] [Server thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod FML
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Step: Initialization - Forge Mod Loader took 0.001s
+[16:01:38] [Server thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod forge
+[16:01:38] [Server thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod forge
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Step: Initialization - Minecraft Forge took 0.001s
+[16:01:38] [Server thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod sexmod
+[16:01:38] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class com.schnurritv.sexmod.Q from class com.schnurritv.sexmod.U
+[16:01:38] [Server thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod sexmod
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Step: Initialization - SchnurriTV's Sexmod took 0.186s
+[16:01:38] [Server thread/TRACE] [FML]: Sending event FMLInitializationEvent to mod geckolib3
+[16:01:38] [Server thread/TRACE] [FML]: Sent event FMLInitializationEvent to mod geckolib3
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Step: Initialization - geckolib3 took 0.000s
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Finished: Initialization took 0.189s
+[16:01:38] [Server thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod minecraft
+[16:01:38] [Server thread/TRACE] [FML]: Sending event IMCEvent to mod minecraft
+[16:01:38] [Server thread/TRACE] [FML]: Sent event IMCEvent to mod minecraft
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Minecraft took 0.005s
+[16:01:38] [Server thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod mcp
+[16:01:38] [Server thread/TRACE] [FML]: Sending event IMCEvent to mod mcp
+[16:01:38] [Server thread/TRACE] [FML]: Sent event IMCEvent to mod mcp
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Minecraft Coder Pack took 0.002s
+[16:01:38] [Server thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod FML
+[16:01:38] [Server thread/TRACE] [FML]: Sending event IMCEvent to mod FML
+[16:01:38] [Server thread/TRACE] [FML]: Sent event IMCEvent to mod FML
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Forge Mod Loader took 0.001s
+[16:01:38] [Server thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod forge
+[16:01:38] [Server thread/TRACE] [FML]: Sending event IMCEvent to mod forge
+[16:01:38] [Server thread/TRACE] [FML]: Sent event IMCEvent to mod forge
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - Minecraft Forge took 0.001s
+[16:01:38] [Server thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod sexmod
+[16:01:38] [Server thread/TRACE] [FML]: Sending event IMCEvent to mod sexmod
+[16:01:38] [Server thread/TRACE] [FML]: Sent event IMCEvent to mod sexmod
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - SchnurriTV's Sexmod took 0.001s
+[16:01:38] [Server thread/TRACE] [FML]: Attempting to deliver 0 IMC messages to mod geckolib3
+[16:01:38] [Server thread/TRACE] [FML]: Sending event IMCEvent to mod geckolib3
+[16:01:38] [Server thread/TRACE] [FML]: Sent event IMCEvent to mod geckolib3
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - geckolib3 took 0.001s
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Finished: InterModComms$IMC took 0.011s
+[16:01:38] [Server thread/INFO] [FML]: Injecting itemstacks
+[16:01:38] [Server thread/INFO] [FML]: Itemstack injection complete
+[16:01:38] [Server thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod minecraft
+[16:01:38] [Server thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod minecraft
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Step: PostInitialization - Minecraft took 0.001s
+[16:01:38] [Server thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod mcp
+[16:01:38] [Server thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod mcp
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Step: PostInitialization - Minecraft Coder Pack took 0.001s
+[16:01:38] [Server thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod FML
+[16:01:38] [Server thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod FML
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Step: PostInitialization - Forge Mod Loader took 0.001s
+[16:01:38] [Server thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod forge
+[16:01:38] [Server thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod forge
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Step: PostInitialization - Minecraft Forge took 0.013s
+[16:01:38] [Server thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod sexmod
+[16:01:38] [Server thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod sexmod
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Step: PostInitialization - SchnurriTV's Sexmod took 0.001s
+[16:01:38] [Server thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod geckolib3
+[16:01:38] [Server thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod geckolib3
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Step: PostInitialization - geckolib3 took 0.001s
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Finished: PostInitialization took 0.017s
+[16:01:38] [Server thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod minecraft
+[16:01:38] [Server thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod minecraft
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Step: LoadComplete - Minecraft took 0.001s
+[16:01:38] [Server thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod mcp
+[16:01:38] [Server thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod mcp
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Step: LoadComplete - Minecraft Coder Pack took 0.001s
+[16:01:38] [Server thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod FML
+[16:01:38] [Server thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod FML
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Step: LoadComplete - Forge Mod Loader took 0.001s
+[16:01:38] [Server thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod forge
+[16:01:38] [Server thread/DEBUG] [FML]: Forge RecipeSorter Baking:
+[16:01:38] [Server thread/DEBUG] [FML]:   16: RecipeEntry("Before", UNKNOWN, )
+[16:01:38] [Server thread/DEBUG] [FML]:   15: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
+[16:01:38] [Server thread/DEBUG] [FML]:   14: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
+[16:01:38] [Server thread/DEBUG] [FML]:   13: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
+[16:01:38] [Server thread/DEBUG] [FML]:   12: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
+[16:01:38] [Server thread/DEBUG] [FML]:   11: RecipeEntry("minecraft:repair", SHAPELESS, net.minecraft.item.crafting.RecipeRepairItem) After: minecraft:shapeless
+[16:01:38] [Server thread/DEBUG] [FML]:   10: RecipeEntry("minecraft:shield_deco", SHAPELESS, net.minecraft.item.crafting.ShieldRecipes$Decoration) After: minecraft:shapeless
+[16:01:38] [Server thread/DEBUG] [FML]:   9: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
+[16:01:38] [Server thread/DEBUG] [FML]:   8: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
+[16:01:38] [Server thread/DEBUG] [FML]:   7: RecipeEntry("minecraft:pattern_dupe", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeDuplicatePattern) After: minecraft:shapeless
+[16:01:38] [Server thread/DEBUG] [FML]:   6: RecipeEntry("minecraft:tippedarrow", SHAPELESS, net.minecraft.item.crafting.RecipeTippedArrow) After: minecraft:shapeless
+[16:01:38] [Server thread/DEBUG] [FML]:   5: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
+[16:01:38] [Server thread/DEBUG] [FML]:   4: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
+[16:01:38] [Server thread/DEBUG] [FML]:   3: RecipeEntry("minecraft:pattern_add", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern) After: minecraft:shapeless
+[16:01:38] [Server thread/DEBUG] [FML]:   2: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
+[16:01:38] [Server thread/DEBUG] [FML]:   1: RecipeEntry("After", UNKNOWN, )
+[16:01:38] [Server thread/DEBUG] [FML]: Sorting recipes
+[16:01:38] [Server thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod forge
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Step: LoadComplete - Minecraft Forge took 0.011s
+[16:01:38] [Server thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod sexmod
+[16:01:38] [Server thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod sexmod
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Step: LoadComplete - SchnurriTV's Sexmod took 0.001s
+[16:01:38] [Server thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod geckolib3
+[16:01:38] [Server thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod geckolib3
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Step: LoadComplete - geckolib3 took 0.001s
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Finished: LoadComplete took 0.014s
+[16:01:38] [Server thread/DEBUG] [FML]: Freezing registries
+[16:01:38] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod minecraft
+[16:01:38] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod minecraft
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft took 0.001s
+[16:01:38] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod mcp
+[16:01:38] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod mcp
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.001s
+[16:01:38] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod FML
+[16:01:38] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod FML
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
+[16:01:38] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod forge
+[16:01:38] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod forge
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft Forge took 0.034s
+[16:01:38] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod sexmod
+[16:01:38] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod sexmod
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - SchnurriTV's Sexmod took 0.001s
+[16:01:38] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod geckolib3
+[16:01:38] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod geckolib3
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - geckolib3 took 0.001s
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Finished: ModIdMapping took 0.037s
+[16:01:38] [Server thread/DEBUG] [FML]: All registries frozen
+[16:01:38] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 6 mods
+[16:01:38] [Server thread/TRACE] [FML]: Sending event FMLServerAboutToStartEvent to mod minecraft
+[16:01:38] [Server thread/TRACE] [FML]: Sent event FMLServerAboutToStartEvent to mod minecraft
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Step: ServerAboutToStart - Minecraft took 0.000s
+[16:01:38] [Server thread/TRACE] [FML]: Sending event FMLServerAboutToStartEvent to mod mcp
+[16:01:38] [Server thread/TRACE] [FML]: Sent event FMLServerAboutToStartEvent to mod mcp
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Step: ServerAboutToStart - Minecraft Coder Pack took 0.001s
+[16:01:38] [Server thread/TRACE] [FML]: Sending event FMLServerAboutToStartEvent to mod FML
+[16:01:38] [Server thread/TRACE] [FML]: Sent event FMLServerAboutToStartEvent to mod FML
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Step: ServerAboutToStart - Forge Mod Loader took 0.001s
+[16:01:38] [Server thread/TRACE] [FML]: Sending event FMLServerAboutToStartEvent to mod forge
+[16:01:38] [Server thread/TRACE] [FML]: Sent event FMLServerAboutToStartEvent to mod forge
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Step: ServerAboutToStart - Minecraft Forge took 0.001s
+[16:01:38] [Server thread/TRACE] [FML]: Sending event FMLServerAboutToStartEvent to mod sexmod
+[16:01:38] [Server thread/TRACE] [FML]: Sent event FMLServerAboutToStartEvent to mod sexmod
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Step: ServerAboutToStart - SchnurriTV's Sexmod took 0.001s
+[16:01:38] [Server thread/TRACE] [FML]: Sending event FMLServerAboutToStartEvent to mod geckolib3
+[16:01:38] [Server thread/TRACE] [FML]: Sent event FMLServerAboutToStartEvent to mod geckolib3
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Step: ServerAboutToStart - geckolib3 took 0.001s
+[16:01:38] [Server thread/DEBUG] [FML]: Bar Finished: ServerAboutToStart took 0.003s
+[16:01:38] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[16:01:38] [Forge Version Check/DEBUG] [forge.VersionCheck]: [forge] Received version check data:
 {
   "homepage": "https://files.minecraftforge.net/net/minecraftforge/forge/",
   "promos": {
@@ -502,279 +602,134 @@
     "1.21-latest": "51.0.33",
     "1.21.1-latest": "52.0.37",
     "1.21.3-latest": "53.0.33",
-    "1.21.4-latest": "54.0.12"
+    "1.21.4-latest": "54.0.13"
   }
 }
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Step: InterModComms$IMC - geckolib3 took 0.000s
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Finished: InterModComms$IMC took 0.006s
-[17:05:59] [Server thread/INFO] [FML]: Injecting itemstacks
-[17:05:59] [Server thread/INFO] [FML]: Itemstack injection complete
-[17:05:59] [Server thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod minecraft
-[17:05:59] [Server thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod minecraft
-[17:05:59] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Step: PostInitialization - Minecraft took 0.001s
-[17:05:59] [Server thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod mcp
-[17:05:59] [Server thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod mcp
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Step: PostInitialization - Minecraft Coder Pack took 0.000s
-[17:05:59] [Server thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod FML
-[17:05:59] [Server thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod FML
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Step: PostInitialization - Forge Mod Loader took 0.000s
-[17:05:59] [Server thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod forge
-[17:05:59] [Server thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod forge
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Step: PostInitialization - Minecraft Forge took 0.011s
-[17:05:59] [Server thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod sexmod
-[17:05:59] [Server thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod sexmod
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Step: PostInitialization - SchnurriTV's Sexmod took 0.000s
-[17:05:59] [Server thread/TRACE] [FML]: Sending event FMLPostInitializationEvent to mod geckolib3
-[17:05:59] [Server thread/TRACE] [FML]: Sent event FMLPostInitializationEvent to mod geckolib3
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Step: PostInitialization - geckolib3 took 0.000s
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Finished: PostInitialization took 0.014s
-[17:05:59] [Server thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod minecraft
-[17:05:59] [Server thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod minecraft
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Step: LoadComplete - Minecraft took 0.000s
-[17:05:59] [Server thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod mcp
-[17:05:59] [Server thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod mcp
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Step: LoadComplete - Minecraft Coder Pack took 0.000s
-[17:05:59] [Server thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod FML
-[17:05:59] [Server thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod FML
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Step: LoadComplete - Forge Mod Loader took 0.000s
-[17:05:59] [Server thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod forge
-[17:05:59] [Server thread/DEBUG] [FML]: Forge RecipeSorter Baking:
-[17:05:59] [Server thread/DEBUG] [FML]:   16: RecipeEntry("Before", UNKNOWN, )
-[17:05:59] [Server thread/DEBUG] [FML]:   15: RecipeEntry("minecraft:shaped", SHAPED, net.minecraft.item.crafting.ShapedRecipes) Before: minecraft:shapeless
-[17:05:59] [Server thread/DEBUG] [FML]:   14: RecipeEntry("forge:shapedore", SHAPED, net.minecraftforge.oredict.ShapedOreRecipe) Before: minecraft:shapeless After: minecraft:shaped
-[17:05:59] [Server thread/DEBUG] [FML]:   13: RecipeEntry("minecraft:mapextending", SHAPED, net.minecraft.item.crafting.RecipesMapExtending) Before: minecraft:shapeless After: minecraft:shaped
-[17:05:59] [Server thread/DEBUG] [FML]:   12: RecipeEntry("minecraft:shapeless", SHAPELESS, net.minecraft.item.crafting.ShapelessRecipes) After: minecraft:shaped
-[17:05:59] [Server thread/DEBUG] [FML]:   11: RecipeEntry("minecraft:repair", SHAPELESS, net.minecraft.item.crafting.RecipeRepairItem) After: minecraft:shapeless
-[17:05:59] [Server thread/DEBUG] [FML]:   10: RecipeEntry("minecraft:shield_deco", SHAPELESS, net.minecraft.item.crafting.ShieldRecipes$Decoration) After: minecraft:shapeless
-[17:05:59] [Server thread/DEBUG] [FML]:   9: RecipeEntry("minecraft:armordyes", SHAPELESS, net.minecraft.item.crafting.RecipesArmorDyes) After: minecraft:shapeless
-[17:05:59] [Server thread/DEBUG] [FML]:   8: RecipeEntry("minecraft:fireworks", SHAPELESS, net.minecraft.item.crafting.RecipeFireworks) After: minecraft:shapeless
-[17:05:59] [Server thread/DEBUG] [FML]:   7: RecipeEntry("minecraft:pattern_dupe", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeDuplicatePattern) After: minecraft:shapeless
-[17:05:59] [Server thread/DEBUG] [FML]:   6: RecipeEntry("minecraft:tippedarrow", SHAPELESS, net.minecraft.item.crafting.RecipeTippedArrow) After: minecraft:shapeless
-[17:05:59] [Server thread/DEBUG] [FML]:   5: RecipeEntry("minecraft:mapcloning", SHAPELESS, net.minecraft.item.crafting.RecipesMapCloning) After: minecraft:shapeless
-[17:05:59] [Server thread/DEBUG] [FML]:   4: RecipeEntry("forge:shapelessore", SHAPELESS, net.minecraftforge.oredict.ShapelessOreRecipe) After: minecraft:shapeless
-[17:05:59] [Server thread/DEBUG] [FML]:   3: RecipeEntry("minecraft:pattern_add", SHAPELESS, net.minecraft.item.crafting.RecipesBanners$RecipeAddPattern) After: minecraft:shapeless
-[17:05:59] [Server thread/DEBUG] [FML]:   2: RecipeEntry("minecraft:bookcloning", SHAPELESS, net.minecraft.item.crafting.RecipeBookCloning) After: minecraft:shapeless
-[17:05:59] [Server thread/DEBUG] [FML]:   1: RecipeEntry("After", UNKNOWN, )
-[17:05:59] [Server thread/DEBUG] [FML]: Sorting recipes
-[17:05:59] [Server thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod forge
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Step: LoadComplete - Minecraft Forge took 0.008s
-[17:05:59] [Server thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod sexmod
-[17:05:59] [Server thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod sexmod
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Step: LoadComplete - SchnurriTV's Sexmod took 0.000s
-[17:05:59] [Server thread/TRACE] [FML]: Sending event FMLLoadCompleteEvent to mod geckolib3
-[17:05:59] [Server thread/TRACE] [FML]: Sent event FMLLoadCompleteEvent to mod geckolib3
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Step: LoadComplete - geckolib3 took 0.000s
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Finished: LoadComplete took 0.010s
-[17:05:59] [Server thread/DEBUG] [FML]: Freezing registries
-[17:05:59] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod minecraft
-[17:05:59] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod minecraft
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft took 0.001s
-[17:05:59] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod mcp
-[17:05:59] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod mcp
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft Coder Pack took 0.000s
-[17:05:59] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod FML
-[17:05:59] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod FML
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Forge Mod Loader took 0.000s
-[17:05:59] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod forge
-[17:05:59] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod forge
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - Minecraft Forge took 0.028s
-[17:05:59] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod sexmod
-[17:05:59] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod sexmod
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - SchnurriTV's Sexmod took 0.000s
-[17:05:59] [Server thread/TRACE] [FML]: Sending event FMLModIdMappingEvent to mod geckolib3
-[17:05:59] [Server thread/TRACE] [FML]: Sent event FMLModIdMappingEvent to mod geckolib3
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Step: ModIdMapping - geckolib3 took 0.001s
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Finished: ModIdMapping took 0.030s
-[17:05:59] [Server thread/DEBUG] [FML]: All registries frozen
-[17:05:59] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 6 mods
-[17:05:59] [Server thread/TRACE] [FML]: Sending event FMLServerAboutToStartEvent to mod minecraft
-[17:05:59] [Server thread/TRACE] [FML]: Sent event FMLServerAboutToStartEvent to mod minecraft
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Step: ServerAboutToStart - Minecraft took 0.000s
-[17:05:59] [Server thread/TRACE] [FML]: Sending event FMLServerAboutToStartEvent to mod mcp
-[17:05:59] [Server thread/TRACE] [FML]: Sent event FMLServerAboutToStartEvent to mod mcp
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Step: ServerAboutToStart - Minecraft Coder Pack took 0.001s
-[17:05:59] [Server thread/TRACE] [FML]: Sending event FMLServerAboutToStartEvent to mod FML
-[17:05:59] [Server thread/TRACE] [FML]: Sent event FMLServerAboutToStartEvent to mod FML
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Step: ServerAboutToStart - Forge Mod Loader took 0.000s
-[17:05:59] [Server thread/TRACE] [FML]: Sending event FMLServerAboutToStartEvent to mod forge
-[17:05:59] [Server thread/TRACE] [FML]: Sent event FMLServerAboutToStartEvent to mod forge
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Step: ServerAboutToStart - Minecraft Forge took 0.000s
-[17:05:59] [Server thread/TRACE] [FML]: Sending event FMLServerAboutToStartEvent to mod sexmod
-[17:05:59] [Server thread/TRACE] [FML]: Sent event FMLServerAboutToStartEvent to mod sexmod
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Step: ServerAboutToStart - SchnurriTV's Sexmod took 0.000s
-[17:05:59] [Server thread/TRACE] [FML]: Sending event FMLServerAboutToStartEvent to mod geckolib3
-[17:05:59] [Server thread/TRACE] [FML]: Sent event FMLServerAboutToStartEvent to mod geckolib3
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Step: ServerAboutToStart - geckolib3 took 0.000s
-[17:05:59] [Server thread/DEBUG] [FML]: Bar Finished: ServerAboutToStart took 0.002s
-[17:05:59] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[17:05:59] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@3e888e9f)
-[17:06:00] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
-[17:06:00] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@3e888e9f)
-[17:06:00] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@3e888e9f)
-[17:06:00] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[17:06:01] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 8%
-[17:06:02] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 18%
-[17:06:03] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 30%
-[17:06:04] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 42%
-[17:06:05] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 59%
-[17:06:06] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 76%
-[17:06:07] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing spawn area: 96%
-[17:06:07] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (8.089s)! For help, type "help" or "?"
-[17:06:07] [Server thread/TRACE] [FML]: Sending event FMLServerStartingEvent to mod minecraft
-[17:06:07] [Server thread/TRACE] [FML]: Sent event FMLServerStartingEvent to mod minecraft
-[17:06:07] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - Minecraft took 0.000s
-[17:06:07] [Server thread/TRACE] [FML]: Sending event FMLServerStartingEvent to mod mcp
-[17:06:07] [Server thread/TRACE] [FML]: Sent event FMLServerStartingEvent to mod mcp
-[17:06:07] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - Minecraft Coder Pack took 0.000s
-[17:06:07] [Server thread/TRACE] [FML]: Sending event FMLServerStartingEvent to mod FML
-[17:06:07] [Server thread/TRACE] [FML]: Sent event FMLServerStartingEvent to mod FML
-[17:06:07] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - Forge Mod Loader took 0.000s
-[17:06:07] [Server thread/TRACE] [FML]: Sending event FMLServerStartingEvent to mod forge
-[17:06:07] [Server thread/TRACE] [FML]: Sent event FMLServerStartingEvent to mod forge
-[17:06:07] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - Minecraft Forge took 0.022s
-[17:06:07] [Server thread/TRACE] [FML]: Sending event FMLServerStartingEvent to mod sexmod
-[17:06:07] [Server thread/TRACE] [FML]: Sent event FMLServerStartingEvent to mod sexmod
-[17:06:07] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - SchnurriTV's Sexmod took 0.001s
-[17:06:07] [Server thread/TRACE] [FML]: Sending event FMLServerStartingEvent to mod geckolib3
-[17:06:07] [Server thread/TRACE] [FML]: Sent event FMLServerStartingEvent to mod geckolib3
-[17:06:07] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - geckolib3 took 0.000s
-[17:06:07] [Server thread/DEBUG] [FML]: Bar Finished: ServerStarting took 0.025s
-[17:06:07] [Server thread/TRACE] [FML]: Sending event FMLServerStartedEvent to mod minecraft
-[17:06:07] [Server thread/TRACE] [FML]: Sent event FMLServerStartedEvent to mod minecraft
-[17:06:07] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - Minecraft took 0.000s
-[17:06:07] [Server thread/TRACE] [FML]: Sending event FMLServerStartedEvent to mod mcp
-[17:06:07] [Server thread/TRACE] [FML]: Sent event FMLServerStartedEvent to mod mcp
-[17:06:07] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - Minecraft Coder Pack took 0.000s
-[17:06:07] [Server thread/TRACE] [FML]: Sending event FMLServerStartedEvent to mod FML
-[17:06:07] [Server thread/TRACE] [FML]: Sent event FMLServerStartedEvent to mod FML
-[17:06:07] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - Forge Mod Loader took 0.000s
-[17:06:07] [Server thread/TRACE] [FML]: Sending event FMLServerStartedEvent to mod forge
-[17:06:07] [Server thread/TRACE] [FML]: Sent event FMLServerStartedEvent to mod forge
-[17:06:07] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - Minecraft Forge took 0.000s
-[17:06:07] [Server thread/TRACE] [FML]: Sending event FMLServerStartedEvent to mod sexmod
-[17:06:07] [Server thread/TRACE] [FML]: Sent event FMLServerStartedEvent to mod sexmod
-[17:06:07] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - SchnurriTV's Sexmod took 0.000s
-[17:06:07] [Server thread/TRACE] [FML]: Sending event FMLServerStartedEvent to mod geckolib3
-[17:06:07] [Server thread/TRACE] [FML]: Sent event FMLServerStartedEvent to mod geckolib3
-[17:06:07] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - geckolib3 took 0.000s
-[17:06:07] [Server thread/DEBUG] [FML]: Bar Finished: ServerStarted took 0.001s
-[17:06:07] [Server thread/DEBUG] [FML]: Queueing dimension -1 to unload
-[17:06:07] [Server thread/DEBUG] [FML]: Queueing dimension 1 to unload
-[17:06:08] [Server thread/INFO] [FML]: Unloading dimension -1
-[17:06:08] [Server thread/INFO] [FML]: Unloading dimension 1
-[17:06:52] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
-[17:06:57] [Server thread/DEBUG] [FML]: The world 445966be (world) may have leaked: first encounter (5 occurrences).
-
-[17:06:57] [Server thread/DEBUG] [FML]: The world 2710063a (world) may have leaked: first encounter (5 occurrences).
-
-[17:07:37] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
-[17:07:47] [Server thread/DEBUG] [FML]: The world 445966be (world) may have leaked: seen 10 times.
-
-[17:07:47] [Server thread/DEBUG] [FML]: The world 2710063a (world) may have leaked: seen 10 times.
-
-[17:08:22] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
-[17:08:37] [Server thread/DEBUG] [FML]: The world 445966be (world) may have leaked: seen 15 times.
-
-[17:08:37] [Server thread/DEBUG] [FML]: The world 2710063a (world) may have leaked: seen 15 times.
-
-[17:09:07] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
-[17:09:27] [Server thread/DEBUG] [FML]: The world 445966be (world) may have leaked: seen 20 times.
-
-[17:09:27] [Server thread/DEBUG] [FML]: The world 2710063a (world) may have leaked: seen 20 times.
-
-[17:09:52] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
-[17:10:17] [Server thread/DEBUG] [FML]: The world 445966be (world) may have leaked: seen 25 times.
-
-[17:10:17] [Server thread/DEBUG] [FML]: The world 2710063a (world) may have leaked: seen 25 times.
-
-[17:10:37] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
-[17:11:07] [Server thread/DEBUG] [FML]: The world 445966be (world) may have leaked: seen 30 times.
-
-[17:11:07] [Server thread/DEBUG] [FML]: The world 2710063a (world) may have leaked: seen 30 times.
-
-[17:11:22] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
-[17:11:57] [Server thread/DEBUG] [FML]: The world 445966be (world) may have leaked: seen 35 times.
-
-[17:11:57] [Server thread/DEBUG] [FML]: The world 2710063a (world) may have leaked: seen 35 times.
-
-[17:12:07] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
-[17:12:47] [Server thread/DEBUG] [FML]: The world 445966be (world) may have leaked: seen 40 times.
-
-[17:12:47] [Server thread/DEBUG] [FML]: The world 2710063a (world) may have leaked: seen 40 times.
-
-[17:12:52] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
-[17:13:37] [Server thread/DEBUG] [FML]: The world 445966be (world) may have leaked: seen 45 times.
-
-[17:13:37] [Server thread/DEBUG] [FML]: The world 2710063a (world) may have leaked: seen 45 times.
-
-[17:13:37] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
-[17:14:22] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
-[17:14:27] [Server thread/DEBUG] [FML]: The world 445966be (world) may have leaked: seen 50 times.
-
-[17:14:27] [Server thread/DEBUG] [FML]: The world 2710063a (world) may have leaked: seen 50 times.
-
-[17:15:07] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
-[17:15:17] [Server thread/DEBUG] [FML]: The world 445966be (world) may have leaked: seen 55 times.
-
-[17:15:17] [Server thread/DEBUG] [FML]: The world 2710063a (world) may have leaked: seen 55 times.
-
-[17:15:52] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
-[17:16:07] [Server thread/DEBUG] [FML]: The world 445966be (world) may have leaked: seen 60 times.
-
-[17:16:07] [Server thread/DEBUG] [FML]: The world 2710063a (world) may have leaked: seen 60 times.
-
-[17:16:37] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
-[17:16:57] [Server thread/DEBUG] [FML]: The world 445966be (world) may have leaked: seen 65 times.
-
-[17:16:57] [Server thread/DEBUG] [FML]: The world 2710063a (world) may have leaked: seen 65 times.
-
-[17:17:22] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
-[17:17:47] [Server thread/DEBUG] [FML]: The world 445966be (world) may have leaked: seen 70 times.
-
-[17:17:47] [Server thread/DEBUG] [FML]: The world 2710063a (world) may have leaked: seen 70 times.
-
-[17:18:07] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
-[17:18:37] [Server thread/DEBUG] [FML]: The world 445966be (world) may have leaked: seen 75 times.
-
-[17:18:37] [Server thread/DEBUG] [FML]: The world 2710063a (world) may have leaked: seen 75 times.
-
-[17:18:52] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
-[17:19:27] [Server thread/DEBUG] [FML]: The world 445966be (world) may have leaked: seen 80 times.
-
-[17:19:27] [Server thread/DEBUG] [FML]: The world 2710063a (world) may have leaked: seen 80 times.
-
-[17:19:37] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
-[17:20:17] [Server thread/DEBUG] [FML]: The world 445966be (world) may have leaked: seen 85 times.
-
-[17:20:17] [Server thread/DEBUG] [FML]: The world 2710063a (world) may have leaked: seen 85 times.
-
-[17:20:21] [Server thread/TRACE] [FML]: Handshake channel activating
-[17:20:21] [Server thread/DEBUG] [FML]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
-[17:20:21] [Server thread/DEBUG] [FML]:   Next: HELLO
-[17:20:22] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
-[17:20:22] [Netty Epoll Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
-[17:20:22] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
-[17:20:23] [Netty Epoll Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $ModList:6 mods->FMLHandshakeServerState$2:HELLO
-[17:20:23] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 6 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2859,sexmod@1.8.0,geckolib3@3.0.30,mcp@9.42
-[17:20:23] [Netty Epoll Server IO #1/DEBUG] [FML]:   Next: WAITINGCACK
-[17:20:23] [Netty Epoll Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
-[17:20:23] [Netty Epoll Server IO #1/DEBUG] [FML]:   Next: COMPLETE
-[17:20:26] [Netty Epoll Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
-[17:20:26] [Netty Epoll Server IO #1/DEBUG] [FML]:   Next: DONE
-[17:20:26] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[17:20:26] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Tigre_Severo[/127.199.54.170:52329] logged in with entity id 2062 at (32.5, 67.0, 242.5)
-[17:20:26] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Tigre_Severo joined the game
-[17:20:26] [Netty Epoll Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
-[17:20:26] [Netty Epoll Server IO #1/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
-[17:21:07] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
-[17:21:52] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
-[17:21:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Opped Tigre_Severo
-[17:22:37] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
-[17:23:22] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
-[17:23:32] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Tigre_Severo: Set own game mode to Creative Mode]
-[17:23:53] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.b9:b:-1]: generated @ 211 44 387
-[17:23:53] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class com.schnurritv.sexmod.Q from class com.schnurritv.sexmod.aX
-[17:24:07] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
-[17:24:52] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
-[17:25:37] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:01:38] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[16:01:38] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@5717b325)
+[16:01:38] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[16:01:39] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@5717b325)
+[16:01:39] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@5717b325)
+[16:01:39] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[16:01:40] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (2.054s)! For help, type "help" or "?"
+[16:01:40] [Server thread/TRACE] [FML]: Sending event FMLServerStartingEvent to mod minecraft
+[16:01:40] [Server thread/TRACE] [FML]: Sent event FMLServerStartingEvent to mod minecraft
+[16:01:40] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - Minecraft took 0.000s
+[16:01:40] [Server thread/TRACE] [FML]: Sending event FMLServerStartingEvent to mod mcp
+[16:01:40] [Server thread/TRACE] [FML]: Sent event FMLServerStartingEvent to mod mcp
+[16:01:40] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - Minecraft Coder Pack took 0.000s
+[16:01:40] [Server thread/TRACE] [FML]: Sending event FMLServerStartingEvent to mod FML
+[16:01:40] [Server thread/TRACE] [FML]: Sent event FMLServerStartingEvent to mod FML
+[16:01:40] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - Forge Mod Loader took 0.000s
+[16:01:40] [Server thread/TRACE] [FML]: Sending event FMLServerStartingEvent to mod forge
+[16:01:40] [Server thread/TRACE] [FML]: Sent event FMLServerStartingEvent to mod forge
+[16:01:40] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - Minecraft Forge took 0.021s
+[16:01:40] [Server thread/TRACE] [FML]: Sending event FMLServerStartingEvent to mod sexmod
+[16:01:40] [Server thread/TRACE] [FML]: Sent event FMLServerStartingEvent to mod sexmod
+[16:01:40] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - SchnurriTV's Sexmod took 0.002s
+[16:01:40] [Server thread/TRACE] [FML]: Sending event FMLServerStartingEvent to mod geckolib3
+[16:01:40] [Server thread/TRACE] [FML]: Sent event FMLServerStartingEvent to mod geckolib3
+[16:01:40] [Server thread/DEBUG] [FML]: Bar Step: ServerStarting - geckolib3 took 0.001s
+[16:01:40] [Server thread/DEBUG] [FML]: Bar Finished: ServerStarting took 0.024s
+[16:01:40] [Server thread/TRACE] [FML]: Sending event FMLServerStartedEvent to mod minecraft
+[16:01:40] [Server thread/TRACE] [FML]: Sent event FMLServerStartedEvent to mod minecraft
+[16:01:40] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - Minecraft took 0.000s
+[16:01:40] [Server thread/TRACE] [FML]: Sending event FMLServerStartedEvent to mod mcp
+[16:01:40] [Server thread/TRACE] [FML]: Sent event FMLServerStartedEvent to mod mcp
+[16:01:40] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - Minecraft Coder Pack took 0.000s
+[16:01:40] [Server thread/TRACE] [FML]: Sending event FMLServerStartedEvent to mod FML
+[16:01:40] [Server thread/TRACE] [FML]: Sent event FMLServerStartedEvent to mod FML
+[16:01:40] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - Forge Mod Loader took 0.001s
+[16:01:40] [Server thread/TRACE] [FML]: Sending event FMLServerStartedEvent to mod forge
+[16:01:40] [Server thread/TRACE] [FML]: Sent event FMLServerStartedEvent to mod forge
+[16:01:40] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - Minecraft Forge took 0.001s
+[16:01:40] [Server thread/TRACE] [FML]: Sending event FMLServerStartedEvent to mod sexmod
+[16:01:40] [Server thread/TRACE] [FML]: Sent event FMLServerStartedEvent to mod sexmod
+[16:01:40] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - SchnurriTV's Sexmod took 0.000s
+[16:01:40] [Server thread/TRACE] [FML]: Sending event FMLServerStartedEvent to mod geckolib3
+[16:01:40] [Server thread/TRACE] [FML]: Sent event FMLServerStartedEvent to mod geckolib3
+[16:01:40] [Server thread/DEBUG] [FML]: Bar Step: ServerStarted - geckolib3 took 0.000s
+[16:01:40] [Server thread/DEBUG] [FML]: Bar Finished: ServerStarted took 0.003s
+[16:01:40] [Server thread/DEBUG] [FML]: Queueing dimension -1 to unload
+[16:01:40] [Server thread/DEBUG] [FML]: Queueing dimension 1 to unload
+[16:01:40] [Server thread/INFO] [FML]: Unloading dimension -1
+[16:01:40] [Server thread/INFO] [FML]: Unloading dimension 1
+[16:02:21] [Server thread/TRACE] [FML]: Handshake channel activating
+[16:02:21] [Server thread/DEBUG] [FML]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[16:02:21] [Server thread/DEBUG] [FML]:   Next: HELLO
+[16:02:22] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[16:02:22] [Netty Epoll Server IO #2/INFO] [FML]: Client protocol version 2
+[16:02:22] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $ModList:6 mods->FMLHandshakeServerState$2:HELLO
+[16:02:22] [Netty Epoll Server IO #2/INFO] [FML]: Client attempting to join with 6 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2859,sexmod@1.8.0,geckolib3@3.0.30,mcp@9.42
+[16:02:22] [Netty Epoll Server IO #2/DEBUG] [FML]:   Next: WAITINGCACK
+[16:02:22] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[16:02:22] [Netty Epoll Server IO #2/DEBUG] [FML]:   Next: COMPLETE
+[16:02:22] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[16:02:22] [Netty Epoll Server IO #2/DEBUG] [FML]:   Next: DONE
+[16:02:22] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[16:02:22] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[16:02:22] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Tigre_Severo[/127.199.54.170:49053] logged in with entity id 30 at (-243.5, 4.0, -1039.5)
+[16:02:22] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Tigre_Severo joined the game
+[16:02:22] [Netty Epoll Server IO #2/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[16:02:26] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:02:41] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Tigre_Severo: Opped Tigre_Severo]
+[16:03:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Tigre_Severo has made the advancement [Monster Hunter]
+[16:03:10] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:03:35] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Tigre_Severo: Set own game mode to Creative Mode]
+[16:03:55] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:04:40] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:05:25] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:06:10] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:06:55] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:07:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Tigre_Severo: Given [Command Block] * 1 to Tigre_Severo]
+[16:07:40] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:08:25] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:09:10] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:09:55] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:10:20] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server
+[16:10:21] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod minecraft
+[16:10:21] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod minecraft
+[16:10:21] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Minecraft took 0.000s
+[16:10:21] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod mcp
+[16:10:21] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod mcp
+[16:10:21] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Minecraft Coder Pack took 0.000s
+[16:10:21] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod FML
+[16:10:21] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod FML
+[16:10:21] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Forge Mod Loader took 0.000s
+[16:10:21] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod forge
+[16:10:21] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod forge
+[16:10:21] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - Minecraft Forge took 0.000s
+[16:10:21] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod sexmod
+[16:10:21] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod sexmod
+[16:10:21] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - SchnurriTV's Sexmod took 0.000s
+[16:10:21] [Server thread/TRACE] [FML]: Sending event FMLServerStoppingEvent to mod geckolib3
+[16:10:21] [Server thread/TRACE] [FML]: Sent event FMLServerStoppingEvent to mod geckolib3
+[16:10:21] [Server thread/DEBUG] [FML]: Bar Step: ServerStopping - geckolib3 took 0.000s
+[16:10:21] [Server thread/DEBUG] [FML]: Bar Finished: ServerStopping took 0.002s
+[16:10:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[16:10:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[16:10:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[16:10:21] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[16:10:21] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[16:10:21] [Server thread/INFO] [FML]: Unloading dimension 0
+[16:10:21] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod minecraft
+[16:10:21] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod minecraft
+[16:10:21] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft took 0.000s
+[16:10:21] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod mcp
+[16:10:21] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod mcp
+[16:10:21] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft Coder Pack took 0.000s
+[16:10:21] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod FML
+[16:10:21] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod FML
+[16:10:21] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Forge Mod Loader took 0.000s
+[16:10:21] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod forge
+[16:10:21] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod forge
+[16:10:21] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - Minecraft Forge took 0.000s
+[16:10:21] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod sexmod
+[16:10:21] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod sexmod
+[16:10:21] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - SchnurriTV's Sexmod took 0.002s
+[16:10:21] [Server thread/TRACE] [FML]: Sending event FMLServerStoppedEvent to mod geckolib3
+[16:10:21] [Server thread/TRACE] [FML]: Sent event FMLServerStoppedEvent to mod geckolib3
+[16:10:21] [Server thread/DEBUG] [FML]: Bar Step: ServerStopped - geckolib3 took 0.000s
+[16:10:21] [Server thread/DEBUG] [FML]: Bar Finished: ServerStopped took 0.003s
+[16:10:21] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[16:10:21] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
