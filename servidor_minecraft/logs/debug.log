@@ -6217,3 +6217,301 @@ Caused by: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
 [19:45:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Tigre_Severo: Killed Tigre_Severo]
 [19:45:33] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Tigre_Severo lost connection: Disconnected
 [19:45:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Tigre_Severo left the game
+[19:45:48] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_432]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_432]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:47) [h.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
+Caused by: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
+	at com.schnurritv.sexmod.aX.a(aX.java) ~[aX.class:1.8.0]
+	at com.schnurritv.sexmod.ax$a.lambda$onMessage$0(ax$a.java) ~[ax$a.class:1.8.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_432]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_432]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) ~[h.class:?]
+	... 5 more
+[19:46:04] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:46:45] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-7.516755145380782, 4.2, -1113.4360220225797)
+[19:46:49] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:47:34] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:47:43] [Server thread/TRACE] [FML]: Handshake channel activating
+[19:47:43] [Server thread/DEBUG] [FML]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[19:47:43] [Server thread/DEBUG] [FML]:   Next: HELLO
+[19:47:43] [Netty Epoll Server IO #5/DEBUG] [FML]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[19:47:43] [Netty Epoll Server IO #5/INFO] [FML]: Client protocol version 2
+[19:47:43] [Netty Epoll Server IO #5/DEBUG] [FML]: FMLHandshakeServerState: $ModList:6 mods->FMLHandshakeServerState$2:HELLO
+[19:47:43] [Netty Epoll Server IO #5/INFO] [FML]: Client attempting to join with 6 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2859,sexmod@1.8.0,geckolib3@3.0.30,mcp@9.42
+[19:47:43] [Netty Epoll Server IO #5/DEBUG] [FML]:   Next: WAITINGCACK
+[19:47:43] [Netty Epoll Server IO #5/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[19:47:43] [Netty Epoll Server IO #5/DEBUG] [FML]:   Next: COMPLETE
+[19:47:45] [Netty Epoll Server IO #5/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[19:47:45] [Netty Epoll Server IO #5/DEBUG] [FML]:   Next: DONE
+[19:47:45] [Netty Epoll Server IO #5/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[19:47:45] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[19:47:45] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Tigre_Severo[/127.199.54.170:46615] logged in with entity id 3767354 at (18.5, 4.099999904632568, -1119.5)
+[19:47:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Tigre_Severo joined the game
+[19:47:45] [Netty Epoll Server IO #5/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ENANIN10 fell out of the world
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed ENANIN10]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Jenny]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Bee]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.item.swordDiamond]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.tile.torch]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.tile.pressurePlateWood]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie Villager]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.tile.glass]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.tile.woolCarpet.red]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.item.monsterPlacer]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.item.monsterPlacer]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Squid]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Squid]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Squid]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Ellie]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Squid]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Tigre_Severo fell out of the world
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Tigre_Severo]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Cow]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Cow]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Horse]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Cow]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Horse]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Cow]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Horse]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Horse]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Pig]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.item.egg]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Chicken]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Cow]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Horse]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.item.egg]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Pig]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Chicken]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Horse]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.item.egg]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Cow]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Chicken]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Pig]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Horse]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Enderman]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Chicken]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.item.egg]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie Villager]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Pig]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.item.egg]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Chicken]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.item.egg]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Chicken]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Pig]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Pig]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Pig]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Pig]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
+[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
+[19:47:57] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ENANIN10 lost connection: Disconnected
+[19:47:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ENANIN10 left the game
+[19:47:59] [Server thread/TRACE] [FML]: Handshake channel activating
+[19:47:59] [Server thread/DEBUG] [FML]: FMLHandshakeServerState: null->FMLHandshakeServerState$1:START
+[19:47:59] [Server thread/DEBUG] [FML]:   Next: HELLO
+[19:47:59] [Netty Epoll Server IO #7/DEBUG] [FML]: FMLHandshakeServerState: $ClientHello->FMLHandshakeServerState$2:HELLO
+[19:47:59] [Netty Epoll Server IO #7/INFO] [FML]: Client protocol version 2
+[19:47:59] [Netty Epoll Server IO #7/DEBUG] [FML]: FMLHandshakeServerState: $ModList:6 mods->FMLHandshakeServerState$2:HELLO
+[19:47:59] [Netty Epoll Server IO #7/INFO] [FML]: Client attempting to join with 6 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2859,sexmod@1.8.0,geckolib3@3.0.30,mcp@9.42
+[19:47:59] [Netty Epoll Server IO #7/DEBUG] [FML]:   Next: WAITINGCACK
+[19:48:00] [Netty Epoll Server IO #7/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{2}->FMLHandshakeServerState$3:WAITINGCACK
+[19:48:00] [Netty Epoll Server IO #7/DEBUG] [FML]:   Next: COMPLETE
+[19:48:00] [Netty Epoll Server IO #7/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{3}->FMLHandshakeServerState$4:COMPLETE
+[19:48:00] [Netty Epoll Server IO #7/DEBUG] [FML]:   Next: DONE
+[19:48:00] [Netty Epoll Server IO #7/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{4}->FMLHandshakeServerState$5:DONE
+[19:48:00] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[19:48:00] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ENANIN10[/127.95.95.213:56153] logged in with entity id 3803532 at (20.5, 4.0, -1122.5)
+[19:48:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ENANIN10 joined the game
+[19:48:00] [Netty Epoll Server IO #7/DEBUG] [FML]: FMLHandshakeServerState: $HandshakeAck:{5}->FMLHandshakeServerState$5:DONE
+[19:48:19] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:48:35] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_432]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_432]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:47) [h.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
+Caused by: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
+	at com.schnurritv.sexmod.aX.a(aX.java) ~[aX.class:1.8.0]
+	at com.schnurritv.sexmod.ax$a.lambda$onMessage$0(ax$a.java) ~[ax$a.class:1.8.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_432]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_432]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) ~[h.class:?]
+	... 5 more
+[19:48:51] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_432]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_432]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:47) [h.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
+Caused by: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
+	at com.schnurritv.sexmod.aX.a(aX.java) ~[aX.class:1.8.0]
+	at com.schnurritv.sexmod.ax$a.lambda$onMessage$0(ax$a.java) ~[ax$a.class:1.8.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_432]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_432]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) ~[h.class:?]
+	... 5 more
+[19:49:04] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:49:35] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_432]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_432]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:47) [h.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
+Caused by: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
+	at com.schnurritv.sexmod.aX.a(aX.java) ~[aX.class:1.8.0]
+	at com.schnurritv.sexmod.ax$a.lambda$onMessage$0(ax$a.java) ~[ax$a.class:1.8.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_432]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_432]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) ~[h.class:?]
+	... 5 more
+[19:49:49] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:50:34] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:51:08] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
+java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_432]
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_432]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:47) [h.class:?]
+	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723) [MinecraftServer.class:?]
+	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
+	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
+	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
+Caused by: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
+	at com.schnurritv.sexmod.aX.a(aX.java) ~[aX.class:1.8.0]
+	at com.schnurritv.sexmod.ax$a.lambda$onMessage$0(ax$a.java) ~[ax$a.class:1.8.0]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_432]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_432]
+	at net.minecraft.util.Util.func_181617_a(SourceFile:46) ~[h.class:?]
+	... 5 more
+[19:51:19] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:52:04] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:52:49] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:53:34] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:54:19] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
+[19:55:04] [Server thread/DEBUG] [FML]: Gathering id map for writing to world save world
