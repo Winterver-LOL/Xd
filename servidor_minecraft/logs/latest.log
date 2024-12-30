@@ -643,3 +643,29 @@ Caused by: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
 	at net.minecraft.util.Util.func_181617_a(SourceFile:46) ~[h.class:?]
 	... 5 more
 [23:25:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ENANIN10 has made the advancement [Take Aim]
+[23:26:39] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 93f837d6-b261-35cc-89ca-4df4894e40ff to (-2.7773028795512835, 4.7625, -1136.7782392297854)
+[23:27:26] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 93f837d6-b261-35cc-89ca-4df4894e40ff to (-2.810551661557694, 5.5625, -1137.4738646258145)
+[23:27:26] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 93f837d6-b261-35cc-89ca-4df4894e40ff to (-2.810551661557694, 5.5625, -1137.4738646258145)
+[23:28:00] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 93f837d6-b261-35cc-89ca-4df4894e40ff to (-3.390837839740783, 4.9625, -1136.7868774083704)
+[23:28:13] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 93f837d6-b261-35cc-89ca-4df4894e40ff to (-3.4512260036981868, 5.5625, -1137.4842677364177)
+[23:28:30] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 93f837d6-b261-35cc-89ca-4df4894e40ff to (-3.390837839740783, 4.9625, -1136.7868774083704)
+[23:28:32] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 93f837d6-b261-35cc-89ca-4df4894e40ff to (-3.4512260036981868, 5.5625, -1137.4842677364177)
+[23:28:34] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 93f837d6-b261-35cc-89ca-4df4894e40ff to (-3.390837839740783, 4.9625, -1136.7868774083704)
+[23:29:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Server] PARAR YA
+[23:30:02] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Server] QUE PAREIS YAAAAA
+[23:30:14] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Unknown command. Try /help for a list of commands
+[23:30:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <ENANIN10> NO
+[23:30:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Server] QUE SIIIII
+[23:30:49] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ENANIN10 lost connection: Disconnected
+[23:30:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ENANIN10 left the game
+[23:32:19] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: pepeneque lost connection: Disconnected
+[23:32:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: pepeneque left the game
+[23:32:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Stopping the server
+[23:32:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[23:32:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[23:32:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
+[23:32:47] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Saving chunks for level 'world'/overworld
+[23:32:48] [Server thread/INFO] [FML]: Unloading dimension 0
+[23:32:48] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Stopping server
+[23:32:48] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving players
+[23:32:48] [Server Shutdown Thread/INFO] [net.minecraft.server.MinecraftServer]: Saving worlds
