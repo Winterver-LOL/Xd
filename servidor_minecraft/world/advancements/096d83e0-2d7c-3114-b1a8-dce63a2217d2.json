@@ -1,19 +1,7 @@
 {
-  "minecraft:recipes/decorations/pink_banner": {
+  "minecraft:recipes/misc/bone_meal_from_bone": {
     "criteria": {
-      "has_pink_wool": "2024-12-30 16:16:53 +0000"
-    },
-    "done": true
-  },
-  "minecraft:recipes/decorations/magenta_carpet": {
-    "criteria": {
-      "has_magenta_wool": "2024-12-30 16:16:15 +0000"
-    },
-    "done": true
-  },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_something": "2024-12-30 16:03:05 +0000"
+      "has_bone": "2024-12-30 17:31:30 +0000"
     },
     "done": true
   },
@@ -41,12 +29,6 @@
     },
     "done": true
   },
-  "minecraft:recipes/decorations/magenta_bed": {
-    "criteria": {
-      "has_magenta_wool": "2024-12-30 16:16:15 +0000"
-    },
-    "done": true
-  },
   "minecraft:recipes/decorations/pink_bed": {
     "criteria": {
       "has_pink_wool": "2024-12-30 16:16:53 +0000"
@@ -59,16 +41,40 @@
     },
     "done": true
   },
-  "minecraft:adventure/adventuring_time": {
-    "criteria": {
-      "plains": "2024-12-30 16:02:22 +0000"
-    },
-    "done": false
-  },
   "minecraft:recipes/decorations/magenta_banner": {
     "criteria": {
       "has_magenta_wool": "2024-12-30 16:16:15 +0000"
     },
     "done": true
+  },
+  "minecraft:recipes/decorations/pink_banner": {
+    "criteria": {
+      "has_pink_wool": "2024-12-30 16:16:53 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_carpet": {
+    "criteria": {
+      "has_magenta_wool": "2024-12-30 16:16:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2024-12-30 16:03:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/magenta_bed": {
+    "criteria": {
+      "has_magenta_wool": "2024-12-30 16:16:15 +0000"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "plains": "2024-12-30 16:02:22 +0000"
+    },
+    "done": false
   }
 }
