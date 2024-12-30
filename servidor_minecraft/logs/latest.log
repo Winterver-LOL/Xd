@@ -1,754 +1,222 @@
-[19:25:39] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[19:25:39] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[19:25:39] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
-[19:25:39] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
-[19:25:39] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_432, running on Linux:amd64:6.5.0-1025-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
-[19:25:39] [main/INFO] [FML]: Searching /workspaces/Xd/servidor_minecraft/./mods for mods
-[19:25:40] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[19:25:40] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[19:25:40] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[19:25:40] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[19:25:40] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[19:25:41] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
-[19:25:41] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[19:25:41] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[19:25:42] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[19:25:42] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[19:25:42] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
-[19:25:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
-[19:25:45] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
-[19:25:45] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[19:25:45] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
-[19:25:45] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
-[19:25:45] [Server thread/INFO] [FML]: Searching /workspaces/Xd/servidor_minecraft/./mods for mods
-[19:25:46] [Server thread/INFO] [FML]: Mod geckolib3 is missing the required element 'name'. Substituting geckolib3
-[19:25:46] [Server thread/INFO] [FML]: Forge Mod Loader has identified 6 mods to load
-[19:25:46] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
-[19:25:46] [Server thread/WARN] [FML]: Missing English translation for geckolib3: assets/geckolib3/lang/en_us.lang
-[19:25:46] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, sexmod, geckolib3] at CLIENT
-[19:25:46] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, sexmod, geckolib3] at SERVER
-[19:25:46] [Server thread/WARN] [FML]: ****************************************
-[19:25:46] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.ba for mod sexmod
-[19:25:46] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[19:25:46] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[19:25:46] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[19:25:46] [Server thread/WARN] [FML]: ****************************************
-[19:25:46] [Server thread/WARN] [FML]: ****************************************
-[19:25:46] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.c2$a for mod sexmod
-[19:25:46] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[19:25:46] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[19:25:46] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[19:25:46] [Server thread/WARN] [FML]: ****************************************
-[19:25:46] [Server thread/WARN] [FML]: ****************************************
-[19:25:46] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.bc for mod sexmod
-[19:25:46] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[19:25:46] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[19:25:46] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[19:25:46] [Server thread/WARN] [FML]: ****************************************
-[19:25:46] [Server thread/WARN] [FML]: ****************************************
-[19:25:46] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.by$b for mod sexmod
-[19:25:46] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[19:25:46] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[19:25:46] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[19:25:46] [Server thread/WARN] [FML]: ****************************************
-[19:25:46] [Server thread/WARN] [FML]: ****************************************
-[19:25:46] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.D for mod sexmod
-[19:25:46] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[19:25:46] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[19:25:46] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[19:25:46] [Server thread/WARN] [FML]: ****************************************
-[19:25:46] [Server thread/WARN] [FML]: ****************************************
-[19:25:46] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.o for mod sexmod
-[19:25:46] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[19:25:46] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[19:25:46] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[19:25:46] [Server thread/WARN] [FML]: ****************************************
-[19:25:46] [Server thread/WARN] [FML]: ****************************************
-[19:25:46] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.bj for mod sexmod
-[19:25:46] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[19:25:46] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[19:25:46] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[19:25:46] [Server thread/WARN] [FML]: ****************************************
-[19:25:46] [Server thread/WARN] [FML]: ****************************************
-[19:25:46] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.ba for mod geckolib3
-[19:25:46] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[19:25:46] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[19:25:46] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[19:25:46] [Server thread/WARN] [FML]: ****************************************
-[19:25:46] [Server thread/WARN] [FML]: ****************************************
-[19:25:46] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.c2$a for mod geckolib3
-[19:25:46] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[19:25:46] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[19:25:46] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[19:25:46] [Server thread/WARN] [FML]: ****************************************
-[19:25:46] [Server thread/WARN] [FML]: ****************************************
-[19:25:46] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.bc for mod geckolib3
-[19:25:46] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[19:25:46] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[19:25:46] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[19:25:46] [Server thread/WARN] [FML]: ****************************************
-[19:25:46] [Server thread/WARN] [FML]: ****************************************
-[19:25:46] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.by$b for mod geckolib3
-[19:25:46] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[19:25:46] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[19:25:46] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[19:25:46] [Server thread/WARN] [FML]: ****************************************
-[19:25:46] [Server thread/WARN] [FML]: ****************************************
-[19:25:46] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.D for mod geckolib3
-[19:25:46] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[19:25:46] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[19:25:46] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[19:25:46] [Server thread/WARN] [FML]: ****************************************
-[19:25:46] [Server thread/WARN] [FML]: ****************************************
-[19:25:46] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.o for mod geckolib3
-[19:25:46] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[19:25:46] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[19:25:46] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[19:25:46] [Server thread/WARN] [FML]: ****************************************
-[19:25:46] [Server thread/WARN] [FML]: ****************************************
-[19:25:46] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.bj for mod geckolib3
-[19:25:46] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
-[19:25:46] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-[19:25:46] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-[19:25:46] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
-[19:25:46] [Server thread/WARN] [FML]: ****************************************
-[19:25:46] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
-[19:25:46] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
-[19:25:46] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
-[19:25:46] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
-[19:25:47] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
-[19:25:47] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[19:25:47] [Server thread/INFO] [FML]: Applying holder lookups
-[19:25:47] [Server thread/INFO] [FML]: Holder lookups applied
-[19:25:47] [Server thread/INFO] [FML]: Applying holder lookups
-[19:25:47] [Server thread/INFO] [FML]: Holder lookups applied
-[19:25:47] [Server thread/INFO] [FML]: Applying holder lookups
-[19:25:47] [Server thread/INFO] [FML]: Holder lookups applied
-[19:25:47] [Server thread/INFO] [FML]: Applying holder lookups
-[19:25:47] [Server thread/INFO] [FML]: Holder lookups applied
-[19:25:47] [Server thread/INFO] [FML]: Injecting itemstacks
-[19:25:47] [Server thread/INFO] [FML]: Itemstack injection complete
-[19:25:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
-[19:25:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
-[19:25:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
-[19:25:47] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
-[19:25:47] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
-[19:25:47] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:25:47] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
-[19:25:47] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:25:47] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:25:47] [Server thread/INFO] [FML]: Applying holder lookups
-[19:25:47] [Server thread/INFO] [FML]: Holder lookups applied
-[19:25:48] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class com.schnurritv.sexmod.Q from class com.schnurritv.sexmod.U
-[19:25:48] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
-[19:25:48] [Server thread/INFO] [FML]: Injecting itemstacks
-[19:25:48] [Server thread/INFO] [FML]: Itemstack injection complete
-[19:25:48] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 6 mods
-[19:25:48] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
-[19:25:48] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
-[19:25:48] [Server thread/INFO] [FML]: Applying holder lookups
-[19:25:48] [Server thread/INFO] [FML]: Holder lookups applied
-[19:25:48] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@5a204764)
-[19:25:49] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
-[19:25:49] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@5a204764)
-[19:25:49] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@5a204764)
-[19:25:49] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
-[19:25:49] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class com.schnurritv.sexmod.Q from class com.schnurritv.sexmod.aX
-[19:25:49] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class com.schnurritv.sexmod.Q from class com.schnurritv.sexmod.a1
-[19:25:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (1.353s)! For help, type "help" or "?"
-[19:25:49] [Server thread/INFO] [FML]: Unloading dimension -1
-[19:25:49] [Server thread/INFO] [FML]: Unloading dimension 1
-[19:25:57] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
-[19:25:57] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 6 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2859,sexmod@1.0,geckolib3@1.0,mcp@9.42
-[19:25:57] [Netty Epoll Server IO #1/INFO] [FML]: Rejecting connection CLIENT: SchnurriTV's Sexmod: Requires version 1.8.0 but client has 1.0.
-geckolib3: Requires version 3.0.30 but client has 1.0.
-[19:25:57] [Netty Epoll Server IO #1/ERROR] [FML]: Network Disconnect: Server Mod rejections:
-SchnurriTV's Sexmod: Requires version 1.8.0 but client has 1.0.
-geckolib3: Requires version 3.0.30 but client has 1.0.
-[19:25:57] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ENANIN10 lost connection: Server Mod rejections:
-SchnurriTV's Sexmod: Requires version 1.8.0 but client has 1.0.
-geckolib3: Requires version 3.0.30 but client has 1.0.
-[19:25:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ENANIN10 left the game
-[19:25:58] [Netty Epoll Server IO #4/INFO] [FML]: Client protocol version 2
-[19:25:58] [Netty Epoll Server IO #4/INFO] [FML]: Client attempting to join with 6 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2859,sexmod@1.0,geckolib3@1.0,mcp@9.42
-[19:25:58] [Netty Epoll Server IO #4/INFO] [FML]: Rejecting connection CLIENT: SchnurriTV's Sexmod: Requires version 1.8.0 but client has 1.0.
-geckolib3: Requires version 3.0.30 but client has 1.0.
-[19:25:58] [Netty Epoll Server IO #4/ERROR] [FML]: Network Disconnect: Server Mod rejections:
-SchnurriTV's Sexmod: Requires version 1.8.0 but client has 1.0.
-geckolib3: Requires version 3.0.30 but client has 1.0.
-[19:25:58] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ENANIN10 lost connection: Server Mod rejections:
-SchnurriTV's Sexmod: Requires version 1.8.0 but client has 1.0.
-geckolib3: Requires version 3.0.30 but client has 1.0.
-[19:25:58] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ENANIN10 left the game
-[19:26:08] [Netty Epoll Server IO #6/INFO] [FML]: Client protocol version 2
-[19:26:08] [Netty Epoll Server IO #6/INFO] [FML]: Client attempting to join with 6 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2859,sexmod@1.0,geckolib3@1.0,mcp@9.42
-[19:26:08] [Netty Epoll Server IO #6/INFO] [FML]: Rejecting connection CLIENT: SchnurriTV's Sexmod: Requires version 1.8.0 but client has 1.0.
-geckolib3: Requires version 3.0.30 but client has 1.0.
-[19:26:08] [Netty Epoll Server IO #6/ERROR] [FML]: Network Disconnect: Server Mod rejections:
-SchnurriTV's Sexmod: Requires version 1.8.0 but client has 1.0.
-geckolib3: Requires version 3.0.30 but client has 1.0.
-[19:26:08] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ENANIN10 lost connection: Server Mod rejections:
-SchnurriTV's Sexmod: Requires version 1.8.0 but client has 1.0.
-geckolib3: Requires version 3.0.30 but client has 1.0.
-[19:26:08] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ENANIN10 left the game
-[19:26:12] [Netty Epoll Server IO #0/INFO] [FML]: Client protocol version 2
-[19:26:12] [Netty Epoll Server IO #0/INFO] [FML]: Client attempting to join with 6 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2859,sexmod@1.0,geckolib3@1.0,mcp@9.42
-[19:26:12] [Netty Epoll Server IO #0/INFO] [FML]: Rejecting connection CLIENT: SchnurriTV's Sexmod: Requires version 1.8.0 but client has 1.0.
-geckolib3: Requires version 3.0.30 but client has 1.0.
-[19:26:12] [Netty Epoll Server IO #0/ERROR] [FML]: Network Disconnect: Server Mod rejections:
-SchnurriTV's Sexmod: Requires version 1.8.0 but client has 1.0.
-geckolib3: Requires version 3.0.30 but client has 1.0.
-[19:26:12] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ENANIN10 lost connection: Server Mod rejections:
-SchnurriTV's Sexmod: Requires version 1.8.0 but client has 1.0.
-geckolib3: Requires version 3.0.30 but client has 1.0.
-[19:26:12] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ENANIN10 left the game
-[19:26:31] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
-[19:26:31] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 6 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2859,sexmod@1.8.0,geckolib3@3.0.30,mcp@9.42
-[19:26:31] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[19:26:31] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Tigre_Severo[/127.199.54.170:40307] logged in with entity id 113 at (-15.848875651980938, 5.0625, -1132.370777506657)
-[19:26:31] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Tigre_Severo joined the game
-[19:26:50] [Netty Epoll Server IO #3/INFO] [FML]: Client protocol version 2
-[19:26:50] [Netty Epoll Server IO #3/INFO] [FML]: Client attempting to join with 6 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2859,sexmod@1.0,geckolib3@1.0,mcp@9.42
-[19:26:50] [Netty Epoll Server IO #3/INFO] [FML]: Rejecting connection CLIENT: SchnurriTV's Sexmod: Requires version 1.8.0 but client has 1.0.
-geckolib3: Requires version 3.0.30 but client has 1.0.
-[19:26:50] [Netty Epoll Server IO #3/ERROR] [FML]: Network Disconnect: Server Mod rejections:
-SchnurriTV's Sexmod: Requires version 1.8.0 but client has 1.0.
-geckolib3: Requires version 3.0.30 but client has 1.0.
-[19:26:50] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ENANIN10 lost connection: Server Mod rejections:
-SchnurriTV's Sexmod: Requires version 1.8.0 but client has 1.0.
-geckolib3: Requires version 3.0.30 but client has 1.0.
-[19:26:50] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ENANIN10 left the game
-[19:30:57] [Netty Epoll Server IO #5/INFO] [FML]: Client protocol version 2
-[19:30:57] [Netty Epoll Server IO #5/INFO] [FML]: Client attempting to join with 6 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2859,sexmod@1.0,geckolib3@1.0,mcp@9.42
-[19:30:57] [Netty Epoll Server IO #5/INFO] [FML]: Rejecting connection CLIENT: SchnurriTV's Sexmod: Requires version 1.8.0 but client has 1.0.
-geckolib3: Requires version 3.0.30 but client has 1.0.
-[19:30:57] [Netty Epoll Server IO #5/ERROR] [FML]: Network Disconnect: Server Mod rejections:
-SchnurriTV's Sexmod: Requires version 1.8.0 but client has 1.0.
-geckolib3: Requires version 3.0.30 but client has 1.0.
-[19:30:57] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ENANIN10 lost connection: Server Mod rejections:
-SchnurriTV's Sexmod: Requires version 1.8.0 but client has 1.0.
-geckolib3: Requires version 3.0.30 but client has 1.0.
-[19:30:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ENANIN10 left the game
-[19:35:28] [Netty Epoll Server IO #7/INFO] [FML]: Client protocol version 2
-[19:35:28] [Netty Epoll Server IO #7/INFO] [FML]: Client attempting to join with 6 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2859,sexmod@1.8.0,geckolib3@3.0.30,mcp@9.42
-[19:35:28] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[19:35:28] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ENANIN10[/127.95.95.213:38921] logged in with entity id 1229952 at (16.5, 4.0, -1113.5)
-[19:35:28] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ENANIN10 joined the game
-[19:37:01] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Tigre_Severo: Opped ENANIN10]
-[19:37:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Set own game mode to Survival Mode]
-[19:37:27] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Set own game mode to Creative Mode]
-[19:38:35] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-14.745977827447586, 4.2625, -1119.944220484848)
-[19:38:49] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ENANIN10 lost connection: Disconnected
-[19:38:49] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ENANIN10 left the game
-[19:39:23] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
-[19:39:23] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 6 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2859,sexmod@1.8.0,geckolib3@3.0.30,mcp@9.42
-[19:39:23] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[19:39:23] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ENANIN10[/127.95.95.213:46191] logged in with entity id 2125896 at (-14.929644443842426, 4.2625, -1120.02338218027)
-[19:39:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ENANIN10 joined the game
-[19:39:23] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ENANIN10 has made the advancement [Diamonds!]
-[19:39:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: <ENANIN10> que tiraso papi
-[19:39:49] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
-java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
-	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_432]
-	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_432]
-	at net.minecraft.util.Util.func_181617_a(SourceFile:47) [h.class:?]
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
-Caused by: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
-	at com.schnurritv.sexmod.aX.a(aX.java) ~[aX.class:1.8.0]
-	at com.schnurritv.sexmod.ax$a.lambda$onMessage$0(ax$a.java) ~[ax$a.class:1.8.0]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_432]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_432]
-	at net.minecraft.util.Util.func_181617_a(SourceFile:46) ~[h.class:?]
-	... 5 more
-Caused by: java.lang.ClassNotFoundException: net.minecraft.client.resources.I18n
-	at net.minecraft.launchwrapper.LaunchClassLoader.findClass(LaunchClassLoader.java:191) ~[launchwrapper-1.12.jar:?]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:418) ~[?:1.8.0_432]
-	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_432]
-	at com.schnurritv.sexmod.aX.a(aX.java) ~[aX.class:1.8.0]
-	at com.schnurritv.sexmod.ax$a.lambda$onMessage$0(ax$a.java) ~[ax$a.class:1.8.0]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_432]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_432]
-	at net.minecraft.util.Util.func_181617_a(SourceFile:46) ~[h.class:?]
-	... 5 more
-Caused by: java.lang.NullPointerException
-[19:40:07] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
-java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
-	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_432]
-	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_432]
-	at net.minecraft.util.Util.func_181617_a(SourceFile:47) [h.class:?]
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
-Caused by: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
-	at com.schnurritv.sexmod.aX.a(aX.java) ~[aX.class:1.8.0]
-	at com.schnurritv.sexmod.ax$a.lambda$onMessage$0(ax$a.java) ~[ax$a.class:1.8.0]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_432]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_432]
-	at net.minecraft.util.Util.func_181617_a(SourceFile:46) ~[h.class:?]
-	... 5 more
-[19:40:07] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
-java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
-	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_432]
-	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_432]
-	at net.minecraft.util.Util.func_181617_a(SourceFile:47) [h.class:?]
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
-Caused by: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
-	at com.schnurritv.sexmod.aX.a(aX.java) ~[aX.class:1.8.0]
-	at com.schnurritv.sexmod.ax$a.lambda$onMessage$0(ax$a.java) ~[ax$a.class:1.8.0]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_432]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_432]
-	at net.minecraft.util.Util.func_181617_a(SourceFile:46) ~[h.class:?]
-	... 5 more
-[19:40:30] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-15.575492014561267, 4.4625, -1119.749208559163)
-[19:40:37] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-15.856896564687293, 5.0625, -1120.390154328451)
-[19:40:41] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-15.575492014561267, 4.4625, -1119.749208559163)
-[19:40:41] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-15.856896564687293, 5.0625, -1120.390154328451)
-[19:40:43] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-15.575492014561267, 4.4625, -1119.749208559163)
-[19:40:47] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-15.856896564687293, 5.0625, -1120.390154328451)
-[19:40:49] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-15.575492014561267, 4.4625, -1119.749208559163)
-[19:40:49] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-15.856896564687293, 5.0625, -1120.390154328451)
-[19:40:50] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-15.575492014561267, 4.4625, -1119.749208559163)
-[19:40:51] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-15.856896564687293, 5.0625, -1120.390154328451)
-[19:40:52] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-15.575492014561267, 4.4625, -1119.749208559163)
-[19:40:52] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-15.856896564687293, 5.0625, -1120.390154328451)
-[19:40:53] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-15.575492014561267, 4.4625, -1119.749208559163)
-[19:40:53] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-15.856896564687293, 5.0625, -1120.390154328451)
-[19:40:55] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-15.575492014561267, 4.4625, -1119.749208559163)
-[19:40:55] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-15.856896564687293, 5.0625, -1120.390154328451)
-[19:40:56] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-15.575492014561267, 4.4625, -1119.749208559163)
-[19:41:00] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-15.856896564687293, 5.0625, -1120.390154328451)
-[19:41:01] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-15.575492014561267, 4.4625, -1119.749208559163)
-[19:41:01] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-15.856896564687293, 5.0625, -1120.390154328451)
-[19:41:02] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-15.575492014561267, 4.4625, -1119.749208559163)
-[19:41:03] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-15.856896564687293, 5.0625, -1120.390154328451)
-[19:41:05] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-15.575492014561267, 4.4625, -1119.749208559163)
-[19:41:16] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-15.856896564687293, 5.0625, -1120.390154328451)
-[19:41:17] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-15.575492014561267, 4.4625, -1119.749208559163)
-[19:41:17] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-15.856896564687293, 5.0625, -1120.390154328451)
-[19:41:18] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-15.575492014561267, 4.4625, -1119.749208559163)
-[19:41:19] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-15.856896564687293, 5.0625, -1120.390154328451)
-[19:41:20] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-15.575492014561267, 4.4625, -1119.749208559163)
-[19:41:20] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-15.856896564687293, 5.0625, -1120.390154328451)
-[19:41:21] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-15.575492014561267, 4.4625, -1119.749208559163)
-[19:41:22] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-15.856896564687293, 5.0625, -1120.390154328451)
-[19:41:24] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-15.575492014561267, 4.4625, -1119.749208559163)
-[19:41:28] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-15.856896564687293, 5.0625, -1120.390154328451)
-[19:41:30] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-15.575492014561267, 4.4625, -1119.749208559163)
-[19:41:57] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
-java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
-	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_432]
-	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_432]
-	at net.minecraft.util.Util.func_181617_a(SourceFile:47) [h.class:?]
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
-Caused by: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
-	at com.schnurritv.sexmod.aX.a(aX.java) ~[aX.class:1.8.0]
-	at com.schnurritv.sexmod.ax$a.lambda$onMessage$0(ax$a.java) ~[ax$a.class:1.8.0]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_432]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_432]
-	at net.minecraft.util.Util.func_181617_a(SourceFile:46) ~[h.class:?]
-	... 5 more
-[19:41:57] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
-java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
-	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_432]
-	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_432]
-	at net.minecraft.util.Util.func_181617_a(SourceFile:47) [h.class:?]
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
-Caused by: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
-	at com.schnurritv.sexmod.aX.a(aX.java) ~[aX.class:1.8.0]
-	at com.schnurritv.sexmod.ax$a.lambda$onMessage$0(ax$a.java) ~[ax$a.class:1.8.0]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_432]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_432]
-	at net.minecraft.util.Util.func_181617_a(SourceFile:46) ~[h.class:?]
-	... 5 more
-[19:42:22] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
-java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
-	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_432]
-	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_432]
-	at net.minecraft.util.Util.func_181617_a(SourceFile:47) [h.class:?]
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
-Caused by: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
-	at com.schnurritv.sexmod.aX.a(aX.java) ~[aX.class:1.8.0]
-	at com.schnurritv.sexmod.ax$a.lambda$onMessage$0(ax$a.java) ~[ax$a.class:1.8.0]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_432]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_432]
-	at net.minecraft.util.Util.func_181617_a(SourceFile:46) ~[h.class:?]
-	... 5 more
-[19:42:22] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
-java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
-	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_432]
-	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_432]
-	at net.minecraft.util.Util.func_181617_a(SourceFile:47) [h.class:?]
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
-Caused by: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
-	at com.schnurritv.sexmod.aX.a(aX.java) ~[aX.class:1.8.0]
-	at com.schnurritv.sexmod.ax$a.lambda$onMessage$0(ax$a.java) ~[ax$a.class:1.8.0]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_432]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_432]
-	at net.minecraft.util.Util.func_181617_a(SourceFile:46) ~[h.class:?]
-	... 5 more
-[19:44:59] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
-java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
-	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_432]
-	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_432]
-	at net.minecraft.util.Util.func_181617_a(SourceFile:47) [h.class:?]
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
-Caused by: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
-	at com.schnurritv.sexmod.aX.a(aX.java) ~[aX.class:1.8.0]
-	at com.schnurritv.sexmod.ax$a.lambda$onMessage$0(ax$a.java) ~[ax$a.class:1.8.0]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_432]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_432]
-	at net.minecraft.util.Util.func_181617_a(SourceFile:46) ~[h.class:?]
-	... 5 more
-[19:44:59] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
-java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
-	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_432]
-	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_432]
-	at net.minecraft.util.Util.func_181617_a(SourceFile:47) [h.class:?]
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
-Caused by: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
-	at com.schnurritv.sexmod.aX.a(aX.java) ~[aX.class:1.8.0]
-	at com.schnurritv.sexmod.ax$a.lambda$onMessage$0(ax$a.java) ~[ax$a.class:1.8.0]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_432]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_432]
-	at net.minecraft.util.Util.func_181617_a(SourceFile:46) ~[h.class:?]
-	... 5 more
-[19:45:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Tigre_Severo fell out of the world
-[19:45:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [Tigre_Severo: Killed Tigre_Severo]
-[19:45:33] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: Tigre_Severo lost connection: Disconnected
-[19:45:33] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Tigre_Severo left the game
-[19:45:48] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
-java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
-	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_432]
-	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_432]
-	at net.minecraft.util.Util.func_181617_a(SourceFile:47) [h.class:?]
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
-Caused by: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
-	at com.schnurritv.sexmod.aX.a(aX.java) ~[aX.class:1.8.0]
-	at com.schnurritv.sexmod.ax$a.lambda$onMessage$0(ax$a.java) ~[ax$a.class:1.8.0]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_432]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_432]
-	at net.minecraft.util.Util.func_181617_a(SourceFile:46) ~[h.class:?]
-	... 5 more
-[19:46:45] [Server thread/INFO] [STDOUT]: [com.schnurritv.sexmod.bJ$a:lambda$onMessage$0:-1]: teleporting player 56c5260d-c910-3b50-9289-e0330be6cb6f to (-7.516755145380782, 4.2, -1113.4360220225797)
-[19:47:43] [Netty Epoll Server IO #5/INFO] [FML]: Client protocol version 2
-[19:47:43] [Netty Epoll Server IO #5/INFO] [FML]: Client attempting to join with 6 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2859,sexmod@1.8.0,geckolib3@3.0.30,mcp@9.42
-[19:47:45] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[19:47:45] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: Tigre_Severo[/127.199.54.170:46615] logged in with entity id 3767354 at (18.5, 4.099999904632568, -1119.5)
-[19:47:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Tigre_Severo joined the game
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ENANIN10 fell out of the world
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed ENANIN10]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Jenny]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Bee]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.item.swordDiamond]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.tile.torch]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.tile.pressurePlateWood]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Slime]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie Villager]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.tile.glass]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.tile.woolCarpet.red]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.item.monsterPlacer]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.item.monsterPlacer]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Squid]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Squid]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Squid]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Ellie]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Squid]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Tigre_Severo fell out of the world
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Tigre_Severo]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Cow]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Cow]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Horse]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Cow]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Horse]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Cow]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Horse]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Horse]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Pig]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.item.egg]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Chicken]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Cow]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Horse]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.item.egg]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Pig]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Chicken]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Horse]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.item.egg]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Cow]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Chicken]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Pig]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Horse]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Enderman]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Chicken]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.item.egg]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie Villager]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Pig]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.item.egg]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Chicken]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Creeper]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed item.item.egg]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Chicken]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Skeleton]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Pig]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Pig]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Pig]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Zombie]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Pig]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
-[19:47:46] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: [ENANIN10: Killed Spider]
-[19:47:57] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: ENANIN10 lost connection: Disconnected
-[19:47:57] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ENANIN10 left the game
-[19:47:59] [Netty Epoll Server IO #7/INFO] [FML]: Client protocol version 2
-[19:47:59] [Netty Epoll Server IO #7/INFO] [FML]: Client attempting to join with 6 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2859,sexmod@1.8.0,geckolib3@3.0.30,mcp@9.42
-[19:48:00] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
-[19:48:00] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ENANIN10[/127.95.95.213:56153] logged in with entity id 3803532 at (20.5, 4.0, -1122.5)
-[19:48:00] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ENANIN10 joined the game
-[19:48:35] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
-java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
-	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_432]
-	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_432]
-	at net.minecraft.util.Util.func_181617_a(SourceFile:47) [h.class:?]
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
-Caused by: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
-	at com.schnurritv.sexmod.aX.a(aX.java) ~[aX.class:1.8.0]
-	at com.schnurritv.sexmod.ax$a.lambda$onMessage$0(ax$a.java) ~[ax$a.class:1.8.0]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_432]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_432]
-	at net.minecraft.util.Util.func_181617_a(SourceFile:46) ~[h.class:?]
-	... 5 more
-[19:48:51] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
-java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
-	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_432]
-	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_432]
-	at net.minecraft.util.Util.func_181617_a(SourceFile:47) [h.class:?]
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
-Caused by: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
-	at com.schnurritv.sexmod.aX.a(aX.java) ~[aX.class:1.8.0]
-	at com.schnurritv.sexmod.ax$a.lambda$onMessage$0(ax$a.java) ~[ax$a.class:1.8.0]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_432]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_432]
-	at net.minecraft.util.Util.func_181617_a(SourceFile:46) ~[h.class:?]
-	... 5 more
-[19:49:35] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
-java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
-	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_432]
-	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_432]
-	at net.minecraft.util.Util.func_181617_a(SourceFile:47) [h.class:?]
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
-Caused by: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
-	at com.schnurritv.sexmod.aX.a(aX.java) ~[aX.class:1.8.0]
-	at com.schnurritv.sexmod.ax$a.lambda$onMessage$0(ax$a.java) ~[ax$a.class:1.8.0]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_432]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_432]
-	at net.minecraft.util.Util.func_181617_a(SourceFile:46) ~[h.class:?]
-	... 5 more
-[19:51:08] [Server thread/FATAL] [net.minecraft.server.MinecraftServer]: Error executing task
-java.util.concurrent.ExecutionException: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
-	at java.util.concurrent.FutureTask.report(FutureTask.java:122) ~[?:1.8.0_432]
-	at java.util.concurrent.FutureTask.get(FutureTask.java:192) ~[?:1.8.0_432]
-	at net.minecraft.util.Util.func_181617_a(SourceFile:47) [h.class:?]
-	at net.minecraft.server.MinecraftServer.func_71190_q(MinecraftServer.java:723) [MinecraftServer.class:?]
-	at net.minecraft.server.dedicated.DedicatedServer.func_71190_q(DedicatedServer.java:397) [nz.class:?]
-	at net.minecraft.server.MinecraftServer.func_71217_p(MinecraftServer.java:668) [MinecraftServer.class:?]
-	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:526) [MinecraftServer.class:?]
-	at java.lang.Thread.run(Thread.java:750) [?:1.8.0_432]
-Caused by: java.lang.NoClassDefFoundError: net/minecraft/client/resources/I18n
-	at com.schnurritv.sexmod.aX.a(aX.java) ~[aX.class:1.8.0]
-	at com.schnurritv.sexmod.ax$a.lambda$onMessage$0(ax$a.java) ~[ax$a.class:1.8.0]
-	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) ~[?:1.8.0_432]
-	at java.util.concurrent.FutureTask.run(FutureTask.java:266) ~[?:1.8.0_432]
-	at net.minecraft.util.Util.func_181617_a(SourceFile:46) ~[h.class:?]
-	... 5 more
+[22:56:10] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[22:56:10] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[22:56:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLServerTweaker
+[22:56:10] [main/INFO] [FML]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[22:56:10] [main/INFO] [FML]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_432, running on Linux:amd64:6.5.0-1025-azure, installed at /usr/lib/jvm/java-8-openjdk-amd64/jre
+[22:56:10] [main/INFO] [FML]: Searching /workspaces/Xd/servidor_minecraft/./mods for mods
+[22:56:10] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:56:10] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[22:56:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:56:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[22:56:10] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:56:12] [main/INFO] [FML]: Found valid fingerprint for Minecraft Forge. Certificate fingerprint e3c3d50c7c986df74c645c0ac54639741c90a557
+[22:56:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[22:56:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[22:56:12] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[22:56:12] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[22:56:12] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.server.MinecraftServer}
+[22:56:15] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting minecraft server version 1.12.2
+[22:56:15] [Server thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[22:56:15] [Server thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[22:56:15] [Server thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[22:56:15] [Server thread/INFO] [FML]: Replaced 1227 ore ingredients
+[22:56:15] [Server thread/INFO] [FML]: Searching /workspaces/Xd/servidor_minecraft/./mods for mods
+[22:56:16] [Server thread/INFO] [FML]: Mod geckolib3 is missing the required element 'name'. Substituting geckolib3
+[22:56:16] [Server thread/INFO] [FML]: Forge Mod Loader has identified 6 mods to load
+[22:56:16] [Server thread/WARN] [FML]: Missing English translation for FML: assets/fml/lang/en_us.lang
+[22:56:16] [Server thread/WARN] [FML]: Missing English translation for geckolib3: assets/geckolib3/lang/en_us.lang
+[22:56:16] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, sexmod, geckolib3] at CLIENT
+[22:56:16] [Server thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, sexmod, geckolib3] at SERVER
+[22:56:17] [Server thread/WARN] [FML]: ****************************************
+[22:56:17] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.by$b for mod sexmod
+[22:56:17] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[22:56:17] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[22:56:17] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[22:56:17] [Server thread/WARN] [FML]: ****************************************
+[22:56:17] [Server thread/WARN] [FML]: ****************************************
+[22:56:17] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.o for mod sexmod
+[22:56:17] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[22:56:17] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[22:56:17] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[22:56:17] [Server thread/WARN] [FML]: ****************************************
+[22:56:17] [Server thread/WARN] [FML]: ****************************************
+[22:56:17] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.D for mod sexmod
+[22:56:17] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[22:56:17] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[22:56:17] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[22:56:17] [Server thread/WARN] [FML]: ****************************************
+[22:56:17] [Server thread/WARN] [FML]: ****************************************
+[22:56:17] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.bj for mod sexmod
+[22:56:17] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[22:56:17] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[22:56:17] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[22:56:17] [Server thread/WARN] [FML]: ****************************************
+[22:56:17] [Server thread/WARN] [FML]: ****************************************
+[22:56:17] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.c2$a for mod sexmod
+[22:56:17] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[22:56:17] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[22:56:17] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[22:56:17] [Server thread/WARN] [FML]: ****************************************
+[22:56:17] [Server thread/WARN] [FML]: ****************************************
+[22:56:17] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.bc for mod sexmod
+[22:56:17] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[22:56:17] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[22:56:17] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[22:56:17] [Server thread/WARN] [FML]: ****************************************
+[22:56:17] [Server thread/WARN] [FML]: ****************************************
+[22:56:17] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.ba for mod sexmod
+[22:56:17] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[22:56:17] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[22:56:17] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[22:56:17] [Server thread/WARN] [FML]: ****************************************
+[22:56:17] [Server thread/WARN] [FML]: ****************************************
+[22:56:17] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.by$b for mod geckolib3
+[22:56:17] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[22:56:17] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[22:56:17] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[22:56:17] [Server thread/WARN] [FML]: ****************************************
+[22:56:17] [Server thread/WARN] [FML]: ****************************************
+[22:56:17] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.o for mod geckolib3
+[22:56:17] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[22:56:17] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[22:56:17] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[22:56:17] [Server thread/WARN] [FML]: ****************************************
+[22:56:17] [Server thread/WARN] [FML]: ****************************************
+[22:56:17] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.D for mod geckolib3
+[22:56:17] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[22:56:17] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[22:56:17] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[22:56:17] [Server thread/WARN] [FML]: ****************************************
+[22:56:17] [Server thread/WARN] [FML]: ****************************************
+[22:56:17] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.bj for mod geckolib3
+[22:56:17] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[22:56:17] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[22:56:17] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[22:56:17] [Server thread/WARN] [FML]: ****************************************
+[22:56:17] [Server thread/WARN] [FML]: ****************************************
+[22:56:17] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.c2$a for mod geckolib3
+[22:56:17] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[22:56:17] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[22:56:17] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[22:56:17] [Server thread/WARN] [FML]: ****************************************
+[22:56:17] [Server thread/WARN] [FML]: ****************************************
+[22:56:17] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.bc for mod geckolib3
+[22:56:17] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[22:56:17] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[22:56:17] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[22:56:17] [Server thread/WARN] [FML]: ****************************************
+[22:56:17] [Server thread/WARN] [FML]: ****************************************
+[22:56:17] [Server thread/WARN] [FML]: * Could not determine owning mod for @EventBusSubscriber on com.schnurritv.sexmod.ba for mod geckolib3
+[22:56:17] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.AutomaticEventSubscriber.inject(AutomaticEventSubscriber.java:71)
+[22:56:17] [Server thread/WARN] [FML]: *  at net.minecraftforge.fml.common.FMLModContainer.constructMod(FMLModContainer.java:612)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+[22:56:17] [Server thread/WARN] [FML]: *  at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[22:56:17] [Server thread/WARN] [FML]: *  at java.lang.reflect.Method.invoke(Method.java:498)...
+[22:56:17] [Server thread/WARN] [FML]: ****************************************
+[22:56:17] [Server thread/INFO] [FML]: Processing ObjectHolder annotations
+[22:56:17] [Server thread/INFO] [FML]: Found 1168 ObjectHolder annotations
+[22:56:17] [Server thread/INFO] [FML]: Identifying ItemStackHolder annotations
+[22:56:17] [Server thread/INFO] [FML]: Found 0 ItemStackHolder annotations
+[22:56:17] [Server thread/INFO] [FML]: Configured a dormant chunk cache size of 0
+[22:56:17] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[22:56:17] [Server thread/INFO] [FML]: Applying holder lookups
+[22:56:17] [Server thread/INFO] [FML]: Holder lookups applied
+[22:56:17] [Server thread/INFO] [FML]: Applying holder lookups
+[22:56:17] [Server thread/INFO] [FML]: Holder lookups applied
+[22:56:17] [Server thread/INFO] [FML]: Applying holder lookups
+[22:56:17] [Server thread/INFO] [FML]: Holder lookups applied
+[22:56:17] [Server thread/INFO] [FML]: Applying holder lookups
+[22:56:17] [Server thread/INFO] [FML]: Holder lookups applied
+[22:56:17] [Server thread/INFO] [FML]: Injecting itemstacks
+[22:56:17] [Server thread/INFO] [FML]: Itemstack injection complete
+[22:56:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Loading properties
+[22:56:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Default game type: SURVIVAL
+[22:56:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Generating keypair
+[22:56:17] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Starting Minecraft server on *:25565
+[22:56:17] [Server thread/INFO] [net.minecraft.network.NetworkSystem]: Using epoll channel type
+[22:56:18] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[22:56:18] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: The server will make no attempt to authenticate usernames. Beware.
+[22:56:18] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[22:56:18] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer]: To change this, set "online-mode" to "true" in the server.properties file.
+[22:56:18] [Server thread/INFO] [FML]: Applying holder lookups
+[22:56:18] [Server thread/INFO] [FML]: Holder lookups applied
+[22:56:18] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: AHEAD Target: null
+[22:56:18] [Server thread/WARN] [net.minecraft.network.datasync.EntityDataManager]: defineId called for: class com.schnurritv.sexmod.Q from class com.schnurritv.sexmod.U
+[22:56:18] [Server thread/INFO] [FML]: Injecting itemstacks
+[22:56:18] [Server thread/INFO] [FML]: Itemstack injection complete
+[22:56:18] [Server thread/INFO] [FML]: Forge Mod Loader has successfully loaded 6 mods
+[22:56:18] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Preparing level "world"
+[22:56:18] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[22:56:18] [Server thread/INFO] [FML]: Applying holder lookups
+[22:56:18] [Server thread/INFO] [FML]: Holder lookups applied
+[22:56:18] [Server thread/INFO] [FML]: Loading dimension 0 (world) (net.minecraft.server.dedicated.DedicatedServer@747aa93e)
+[22:56:19] [Server thread/INFO] [net.minecraft.advancements.AdvancementList]: Loaded 488 advancements
+[22:56:19] [Server thread/INFO] [FML]: Loading dimension -1 (world) (net.minecraft.server.dedicated.DedicatedServer@747aa93e)
+[22:56:19] [Server thread/INFO] [FML]: Loading dimension 1 (world) (net.minecraft.server.dedicated.DedicatedServer@747aa93e)
+[22:56:19] [Server thread/INFO] [net.minecraft.server.MinecraftServer]: Preparing start region for level 0
+[22:56:19] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Done (1.319s)! For help, type "help" or "?"
+[22:56:19] [Server thread/INFO] [FML]: Unloading dimension -1
+[22:56:19] [Server thread/INFO] [FML]: Unloading dimension 1
+[22:58:25] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: Opped pepeneque
+[22:58:45] [Netty Epoll Server IO #1/INFO] [FML]: Client protocol version 2
+[22:58:45] [Netty Epoll Server IO #1/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2859,sexmod@1.9.0,geckolib3@3.0.30,mcp@9.42
+[22:58:45] [Netty Epoll Server IO #1/INFO] [FML]: Rejecting connection CLIENT: SchnurriTV's Sexmod: Requires version 1.8.0 but client has 1.9.0.
+[22:58:45] [Netty Epoll Server IO #1/ERROR] [FML]: Network Disconnect: Server Mod rejections:
+SchnurriTV's Sexmod: Requires version 1.8.0 but client has 1.9.0.
+[22:58:45] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: pepeneque lost connection: Server Mod rejections:
+SchnurriTV's Sexmod: Requires version 1.8.0 but client has 1.9.0.
+[22:58:45] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: pepeneque left the game
+[23:01:21] [Netty Epoll Server IO #3/INFO] [FML]: Client protocol version 2
+[23:01:21] [Netty Epoll Server IO #3/INFO] [FML]: Client attempting to join with 6 mods : minecraft@1.12.2,FML@8.0.99.99,forge@14.23.5.2859,sexmod@1.8.0,geckolib3@3.0.30,mcp@9.42
+[23:01:21] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[23:01:21] [Server thread/INFO] [net.minecraft.server.management.PlayerList]: ENANIN10[/127.95.95.213:60259] logged in with entity id 225 at (-1.567922271194764, 5.0, -1124.2367416400518)
+[23:01:21] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ENANIN10 joined the game
+[23:03:05] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: ENANIN10 has made the advancement [Sweet dreams]
+[23:03:54] [Netty Epoll Server IO #4/INFO] [FML]: Client protocol version 2
+[23:03:54] [Netty Epoll Server IO #4/INFO] [FML]: Client attempting to join with 7 mods : minecraft@1.12.2,tlauncher_custom_cape_skin@1.4,FML@8.0.99.99,forge@14.23.5.2859,sexmod@1.9.0,geckolib3@3.0.30,mcp@9.42
+[23:03:54] [Netty Epoll Server IO #4/INFO] [FML]: Rejecting connection CLIENT: SchnurriTV's Sexmod: Requires version 1.8.0 but client has 1.9.0.
+[23:03:54] [Netty Epoll Server IO #4/ERROR] [FML]: Network Disconnect: Server Mod rejections:
+SchnurriTV's Sexmod: Requires version 1.8.0 but client has 1.9.0.
+[23:03:54] [Server thread/INFO] [net.minecraft.network.NetHandlerPlayServer]: pepeneque lost connection: Server Mod rejections:
+SchnurriTV's Sexmod: Requires version 1.8.0 but client has 1.9.0.
+[23:03:54] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer]: pepeneque left the game
